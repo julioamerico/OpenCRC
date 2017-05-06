@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>crc_ahb_ip</design>
+	<target_edif>E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\synthesis\crc_ahb_ip.edn</target_edif>
+</SynplifyOutput>

@@ -1,0 +1,431 @@
+----------------------------------------------------------------------
+Report for cell crc_ahb_ip.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKINT         1       0.0        0.0
+                     CoreAHBLite_Z3         1     218.0      218.0
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                     crc_ahb_ip_MSS         1       1.0        1.0
+                             crc_ip         1    1620.0     1620.0
+                            
+                         TOTAL              6               1839.0
+----------------------------------------------------------------------
+Report for cell crc_ip.netlist
+     Instance path:  crc_ip_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                           crc_unit         1    1457.0     1457.0
+                     host_interface         1     163.0      163.0
+                            
+                         TOTAL              4               1620.0
+----------------------------------------------------------------------
+Report for cell crc_unit.netlist
+     Instance path:  crc_ip_0.CRC_UNIT
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                   crc_control_unit         1     105.0      105.0
+                       crc_datapath         1    1352.0     1352.0
+                            
+                         TOTAL              4               1457.0
+----------------------------------------------------------------------
+Report for cell crc_control_unit.netlist
+     Instance path:  crc_ip_0.CRC_UNIT.CONTROL_UNIT
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         4       1.0        4.0
+                               AO1A         6       1.0        6.0
+                               AO1B         1       1.0        1.0
+                               AO1D         2       1.0        2.0
+                               AOI1         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                              AXOI7         1       1.0        1.0
+                               DFN1        13       1.0       13.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                               MX2A         1       1.0        1.0
+                               NOR2         2       1.0        2.0
+                              NOR2A        14       1.0       14.0
+                              NOR2B         8       1.0        8.0
+                               NOR3         3       1.0        3.0
+                              NOR3A         7       1.0        7.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         3       1.0        3.0
+                                OA1         8       1.0        8.0
+                               OA1A         2       1.0        2.0
+                               OA1B         2       1.0        2.0
+                                OR2         6       1.0        6.0
+                               OR2A         4       1.0        4.0
+                               OR2B         1       1.0        1.0
+                                OR3         5       1.0        5.0
+                               OR3A         3       1.0        3.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                            
+                         TOTAL            107                105.0
+----------------------------------------------------------------------
+Report for cell crc_datapath.netlist
+     Instance path:  crc_ip_0.CRC_UNIT.DATAPATH
+                                          Cell usage:
+                               cell       count     area    count*area
+                               DFN1       174       1.0      174.0
+                                GND         1       0.0        0.0
+                                MX2       270       1.0      270.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         7       1.0        7.0
+                              NOR2B        64       1.0       64.0
+                               OA1A         1       1.0        1.0
+                               OR2A       146       1.0      146.0
+                                VCC         1       0.0        0.0
+          bit_reversal_32s_0_1_2_3_4s         1      96.0       96.0
+          crc_parallel_32s_8s_4294967295_0         1     593.0      593.0
+                            
+                         TOTAL            667               1352.0
+----------------------------------------------------------------------
+Report for cell crc_parallel_32s_8s_4294967295_0.netlist
+     Instance path:  crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         5       1.0        5.0
+                                AO1        27       1.0       27.0
+                                GND         1       0.0        0.0
+                              NOR2B       118       1.0      118.0
+                                OR2        11       1.0       11.0
+                                OR3        15       1.0       15.0
+                                VCC         1       0.0        0.0
+                                XA1        18       1.0       18.0
+          crc_comb_32s_4294967295_genblk4[0].CRC_COMB         1      21.0       21.0
+          crc_comb_32s_4294967295_genblk4[0].CRC_COMB_0         1      31.0       31.0
+          crc_comb_32s_4294967295_genblk4[0].CRC_COMB_1         1      34.0       34.0
+          crc_comb_32s_4294967295_genblk4[0].CRC_COMB_2         1      36.0       36.0
+          crc_comb_32s_4294967295_genblk4[0].CRC_COMB_3         1      40.0       40.0
+          crc_comb_32s_4294967295_genblk4[0].CRC_COMB_4         1      44.0       44.0
+          crc_comb_32s_4294967295_genblk4[0].CRC_COMB_5         1      47.0       47.0
+          crc_comb_32s_4294967295_genblk4[0].CRC_COMB_6         1     146.0      146.0
+                            
+                         TOTAL            204                593.0
+----------------------------------------------------------------------
+Report for cell crc_comb_32s_4294967295_genblk4[0].CRC_COMB_6.netlist
+  Original Cell name crc_comb_32s_4294967295_genblk4[0].CRC_COMB
+     Instance path:  crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4[7].CRC_COMB
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                                AO1         3       1.0        3.0
+                                AX1         5       1.0        5.0
+                               AX1C        31       1.0       31.0
+                                GND         1       0.0        0.0
+                              NOR2B        18       1.0       18.0
+                              NOR3C         6       1.0        6.0
+                                OA1         7       1.0        7.0
+                                OR3         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                                XA1         4       1.0        4.0
+                               XA1B         2       1.0        2.0
+                               XOR2        14       1.0       14.0
+                               XOR3        53       1.0       53.0
+                            
+                         TOTAL            148                146.0
+----------------------------------------------------------------------
+Report for cell crc_comb_32s_4294967295_genblk4[0].CRC_COMB_5.netlist
+  Original Cell name crc_comb_32s_4294967295_genblk4[0].CRC_COMB
+     Instance path:  crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4[6].CRC_COMB
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                               AX1C         5       1.0        5.0
+                               AX1D         2       1.0        2.0
+                                GND         1       0.0        0.0
+                              NOR2B        16       1.0       16.0
+                              NOR3C         6       1.0        6.0
+                                OA1         7       1.0        7.0
+                                VCC         1       0.0        0.0
+                               XA1B         2       1.0        2.0
+                               XOR2         2       1.0        2.0
+                               XOR3         6       1.0        6.0
+                            
+                         TOTAL             49                 47.0
+----------------------------------------------------------------------
+Report for cell crc_comb_32s_4294967295_genblk4[0].CRC_COMB_4.netlist
+  Original Cell name crc_comb_32s_4294967295_genblk4[0].CRC_COMB
+     Instance path:  crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4[5].CRC_COMB
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AX1         1       1.0        1.0
+                               AX1C         5       1.0        5.0
+                               AX1D         2       1.0        2.0
+                                GND         1       0.0        0.0
+                              NOR2B        15       1.0       15.0
+                              NOR3C         6       1.0        6.0
+                                OA1         7       1.0        7.0
+                                VCC         1       0.0        0.0
+                               XA1B         2       1.0        2.0
+                               XOR2         2       1.0        2.0
+                               XOR3         4       1.0        4.0
+                            
+                         TOTAL             46                 44.0
+----------------------------------------------------------------------
+Report for cell crc_comb_32s_4294967295_genblk4[0].CRC_COMB_3.netlist
+  Original Cell name crc_comb_32s_4294967295_genblk4[0].CRC_COMB
+     Instance path:  crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4[4].CRC_COMB
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                               AX1C         3       1.0        3.0
+                               AX1D         2       1.0        2.0
+                                GND         1       0.0        0.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B        13       1.0       13.0
+                              NOR3C         6       1.0        6.0
+                                OA1         7       1.0        7.0
+                                VCC         1       0.0        0.0
+                               XA1B         1       1.0        1.0
+                               XOR2         2       1.0        2.0
+                               XOR3         4       1.0        4.0
+                            
+                         TOTAL             42                 40.0
+----------------------------------------------------------------------
+Report for cell crc_comb_32s_4294967295_genblk4[0].CRC_COMB_2.netlist
+  Original Cell name crc_comb_32s_4294967295_genblk4[0].CRC_COMB
+     Instance path:  crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4[3].CRC_COMB
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AX1         1       1.0        1.0
+                               AX1C         4       1.0        4.0
+                               AX1D         2       1.0        2.0
+                                GND         1       0.0        0.0
+                              NOR2B        13       1.0       13.0
+                              NOR3C         4       1.0        4.0
+                                OA1         7       1.0        7.0
+                                VCC         1       0.0        0.0
+                               XA1B         1       1.0        1.0
+                               XOR2         2       1.0        2.0
+                               XOR3         2       1.0        2.0
+                            
+                         TOTAL             38                 36.0
+----------------------------------------------------------------------
+Report for cell crc_comb_32s_4294967295_genblk4[0].CRC_COMB_1.netlist
+  Original Cell name crc_comb_32s_4294967295_genblk4[0].CRC_COMB
+     Instance path:  crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4[2].CRC_COMB
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                               AX1C         1       1.0        1.0
+                               AX1D         2       1.0        2.0
+                                GND         1       0.0        0.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         9       1.0        9.0
+                              NOR3C         7       1.0        7.0
+                                OA1         7       1.0        7.0
+                                VCC         1       0.0        0.0
+                               XA1B         1       1.0        1.0
+                               XOR2         3       1.0        3.0
+                               XOR3         2       1.0        2.0
+                            
+                         TOTAL             36                 34.0
+----------------------------------------------------------------------
+Report for cell crc_comb_32s_4294967295_genblk4[0].CRC_COMB_0.netlist
+  Original Cell name crc_comb_32s_4294967295_genblk4[0].CRC_COMB
+     Instance path:  crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4[1].CRC_COMB
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AX1C         1       1.0        1.0
+                               AX1D         1       1.0        1.0
+                                GND         1       0.0        0.0
+                              NOR2B        10       1.0       10.0
+                              NOR3C         7       1.0        7.0
+                                OA1         7       1.0        7.0
+                                VCC         1       0.0        0.0
+                               XA1B         1       1.0        1.0
+                               XOR2         2       1.0        2.0
+                               XOR3         2       1.0        2.0
+                            
+                         TOTAL             33                 31.0
+----------------------------------------------------------------------
+Report for cell crc_comb_32s_4294967295_genblk4[0].CRC_COMB.netlist
+  Original Cell name crc_comb_32s_4294967295
+     Instance path:  crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4[0].CRC_COMB
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                              NOR2B         6       1.0        6.0
+                              NOR3C         6       1.0        6.0
+                                OA1         7       1.0        7.0
+                                VCC         1       0.0        0.0
+                               XOR2         2       1.0        2.0
+                            
+                         TOTAL             23                 21.0
+----------------------------------------------------------------------
+Report for cell bit_reversal_32s_0_1_2_3_4s.netlist
+     Instance path:  crc_ip_0.CRC_UNIT.DATAPATH.REV_IN
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                MX2        96       1.0       96.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             98                 96.0
+----------------------------------------------------------------------
+Report for cell host_interface.netlist
+     Instance path:  crc_ip_0.HOST_INTERFACE
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1        37       1.0       37.0
+                             CLKINT         1       0.0        0.0
+                               DFN1         8       1.0        8.0
+                             DFN1E1         7       1.0        7.0
+                                GND         1       0.0        0.0
+                                MX2         5       1.0        5.0
+                               MX2A         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B        88       1.0       88.0
+                               NOR3         2       1.0        2.0
+                              NOR3A         4       1.0        4.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         1       1.0        1.0
+                                OR3         5       1.0        5.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL            166                163.0
+----------------------------------------------------------------------
+Report for cell crc_ahb_ip_MSS.netlist
+     Instance path:  crc_ahb_ip_MSS_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKINT         1       0.0        0.0
+                                GND         1       0.0        0.0
+                          INBUF_MSS         2       0.0        0.0
+                                INV         1       1.0        1.0
+                            MSS_AHB         1       0.0        0.0
+                         OUTBUF_MSS         1       0.0        0.0
+                                VCC         1       0.0        0.0
+          crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC         1       0.0        0.0
+                            
+                         TOTAL              9                  1.0
+----------------------------------------------------------------------
+Report for cell crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC.netlist
+     Instance path:  crc_ahb_ip_MSS_0.MSS_CCC_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                            MSS_CCC         1       0.0        0.0
+                              RCOSC         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                  0.0
+----------------------------------------------------------------------
+Report for cell CoreAHBLite_Z3.netlist
+     Instance path:  CoreAHBLite_0
+                                          Cell usage:
+                               cell       count     area    count*area
+          COREAHBLITE_MATRIX4X16_4_1_0_32_0_0_0         1     218.0      218.0
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              3                218.0
+----------------------------------------------------------------------
+Report for cell COREAHBLITE_MATRIX4X16_4_1_0_32_0_0_0.netlist
+     Instance path:  CoreAHBLite_0.matrix4x16
+                                          Cell usage:
+                               cell       count     area    count*area
+          COREAHBLITE_MASTERSTAGE_4_1_0_32_0_1_0         1     126.0      126.0
+          COREAHBLITE_SLAVESTAGE_slavestage_5         1      92.0       92.0
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                218.0
+----------------------------------------------------------------------
+Report for cell COREAHBLITE_SLAVESTAGE_slavestage_5.netlist
+  Original Cell name COREAHBLITE_SLAVESTAGE
+     Instance path:  CoreAHBLite_0.matrix4x16.slavestage_5
+                                          Cell usage:
+                               cell       count     area    count*area
+          COREAHBLITE_SLAVEARBITER_slave_arbiter_4         1      55.0       55.0
+                           DFN1E0C0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                               MX2C         1       1.0        1.0
+                               NOR2         1       1.0        1.0
+                              NOR2B        32       1.0       32.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             40                 92.0
+----------------------------------------------------------------------
+Report for cell COREAHBLITE_SLAVEARBITER_slave_arbiter_4.netlist
+  Original Cell name COREAHBLITE_SLAVEARBITER
+     Instance path:  CoreAHBLite_0.matrix4x16.slavestage_5.slave_arbiter
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         4       1.0        4.0
+                               AO1D         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             DFN1C0         9       1.0        9.0
+                             DFN1P0         4       1.0        4.0
+                                GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
+                               NOR2         5       1.0        5.0
+                              NOR2A         7       1.0        7.0
+                              NOR2B         6       1.0        6.0
+                              NOR3A         2       1.0        2.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C         1       1.0        1.0
+                                OA1         1       1.0        1.0
+                               OA1A         2       1.0        2.0
+                               OA1B         1       1.0        1.0
+                               OR2A         5       1.0        5.0
+                               OR2B         1       1.0        1.0
+                                OR3         3       1.0        3.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             57                 55.0
+----------------------------------------------------------------------
+Report for cell COREAHBLITE_MASTERSTAGE_4_1_0_32_0_1_0.netlist
+     Instance path:  CoreAHBLite_0.matrix4x16.masterstage_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1D         1       1.0        1.0
+          COREAHBLITE_DEFAULTSLAVESM_default_slave_sm         1      16.0       16.0
+                             DFN1C0         2       1.0        2.0
+                           DFN1E0C0        27       1.0       27.0
+                                GND         1       0.0        0.0
+                                MX2        10       1.0       10.0
+                               NOR2         4       1.0        4.0
+                              NOR2A         4       1.0        4.0
+                              NOR2B         1       1.0        1.0
+                               NOR3         4       1.0        4.0
+                              NOR3A         4       1.0        4.0
+                              NOR3B         4       1.0        4.0
+                                OA1        32       1.0       32.0
+                               OA1C         1       1.0        1.0
+                                OR2         7       1.0        7.0
+                               OR2A         5       1.0        5.0
+                                OR3         1       1.0        1.0
+                               OR3A         1       1.0        1.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL            113                126.0
+----------------------------------------------------------------------
+Report for cell COREAHBLITE_DEFAULTSLAVESM_default_slave_sm.netlist
+  Original Cell name COREAHBLITE_DEFAULTSLAVESM
+     Instance path:  CoreAHBLite_0.matrix4x16.masterstage_0.default_slave_sm
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               NOR2         4       1.0        4.0
+                              NOR2B         2       1.0        2.0
+                              NOR3A         2       1.0        2.0
+                              NOR3C         1       1.0        1.0
+                                OR2         3       1.0        3.0
+                               OR2A         1       1.0        1.0
+                               OR2B         1       1.0        1.0
+                                OR3         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             18                 16.0

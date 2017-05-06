@@ -1,0 +1,38 @@
+#===========================================================
+# Enter your BFM commands in this file. 
+#
+# Syntax: 
+# ------- 
+#
+# memmap    resource_name base_address;
+#
+# write     width resource_name byte_offset data;
+# read      width resource_name byte_offset;
+# readcheck width resource_name byte_offset data;
+#
+#===========================================================
+
+procedure user_main;
+
+#CRC Register Map
+constant crc_dr    0x0000
+constant crc_idr   0x0004
+constant crc_cr    0x0008
+constant crc_init  0x0010
+constant crc_pol   0x0014
+
+# uncomment the following include if you have soft peripherals in the fabric
+# that you want to simulate.  The subsystem.bfm file contains the memory map
+# of the soft peripherals.
+ include "subsystem.bfm"
+
+# add your BFM commands below:
+write w crc_ip_0 crc_pol  0x04c11db7
+write w crc_ip_0 crc_cr   0x00000001
+write w crc_ip_0 crc_init 0x14635287
+write w crc_ip_0 crc_dr   0xaabbccdd
+
+readcheck  w crc_ip_0 crc_dr 0x9c296f77
+
+stop 1;
+return

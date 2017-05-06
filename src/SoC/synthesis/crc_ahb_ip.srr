@@ -1,0 +1,1717 @@
+#Build: Synplify Pro I-2013.09M-SP1 , Build 034R, Jan 17 2014
+#install: C:\Microsemi\Libero_v11.3\Synopsys\synplify_I201309MSP1
+#OS: Windows 7 6.2
+#Hostname: JULIO
+
+#Implementation: synthesis
+
+$ Start of Compile
+#Sat Sep 27 00:32:47 2014
+
+Synopsys Verilog Compiler, version comp201309rcp1, Build 078R, built Jan 14 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2013 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_v11.3\Synopsys\synplify_I201309MSP1\lib\proasic\smartfusion.v"
+@I::"C:\Microsemi\Libero_v11.3\Synopsys\synplify_I201309MSP1\lib\vlog\umr_capim.v"
+@I::"C:\Microsemi\Libero_v11.3\Synopsys\synplify_I201309MSP1\lib\vlog\scemi_objects.v"
+@I::"C:\Microsemi\Libero_v11.3\Synopsys\synplify_I201309MSP1\lib\vlog\scemi_pipes.svh"
+@I::"C:\Microsemi\Libero_v11.3\Synopsys\synplify_I201309MSP1\lib\vlog\hypermods.v"
+@I::"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\mss_tshell.v"
+@I::"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v"
+@I::"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\MSS_CCC_0\crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC.v"
+@I::"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\crc_ahb_ip_MSS.v"
+@I::"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\host_interface.v"
+@I::"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\bit_reversal.v"
+@I::"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\crc_comb.v"
+@I::"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\crc_parrallel.v"
+@I::"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\crc_datapath.v"
+@I::"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\crc_control_unit.v"
+@I::"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\crc_unit.v"
+@I::"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\crc_ip.v"
+@I::"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_addrdec.v"
+@I::"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_defaultslavesm.v"
+@I::"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v"
+@I::"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_slavearbiter.v"
+@I::"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v"
+@I::"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v"
+@I::"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v"
+@I::"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip\crc_ahb_ip.v"
+@W: CG775 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":32:7:32:17|Found Component CoreAHBLite in library COREAHBLITE_LIB
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module crc_ahb_ip
+@W: CG775 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":32:7:32:17|Found Component CoreAHBLite in library COREAHBLITE_LIB
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_addrdec.v":29:7:29:25|Synthesizing module COREAHBLITE_ADDRDEC
+
+	MEMSPACE=3'b100
+	HADDR_SHG_CFG=1'b1
+	SC=16'b0000000000000000
+	M_AHBSLOTENABLE=17'b00000000000100000
+	MSB_ADDR=32'b00000000000000000000000000010011
+	SLAVE_0=16'b0000000000000001
+	SLAVE_1=16'b0000000000000010
+	SLAVE_2=16'b0000000000000100
+	SLAVE_3=16'b0000000000001000
+	SLAVE_4=16'b0000000000010000
+	SLAVE_5=16'b0000000000100000
+	SLAVE_6=16'b0000000001000000
+	SLAVE_7=16'b0000000010000000
+	SLAVE_8=16'b0000000100000000
+	SLAVE_9=16'b0000001000000000
+	SLAVE_10=16'b0000010000000000
+	SLAVE_11=16'b0000100000000000
+	SLAVE_12=16'b0001000000000000
+	SLAVE_13=16'b0010000000000000
+	SLAVE_14=16'b0100000000000000
+	SLAVE_15=16'b1000000000000000
+	NONE=16'b0000000000000000
+   Generated name = COREAHBLITE_ADDRDEC_Z1
+
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_defaultslavesm.v":29:7:29:32|Synthesizing module COREAHBLITE_DEFAULTSLAVESM
+
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":31:7:31:29|Synthesizing module COREAHBLITE_MASTERSTAGE
+
+	MEMSPACE=3'b100
+	HADDR_SHG_CFG=1'b1
+	SC=16'b0000000000000000
+	M_AHBSLOTENABLE=17'b00000000000100000
+	IDLE=1'b0
+	REGISTERED=1'b1
+	SLAVE_NONE=17'b00000000000000000
+   Generated name = COREAHBLITE_MASTERSTAGE_4_1_0_32_0_1_0
+
+@N: CL177 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":629:0:629:5|Sharing sequential element addrRegSMCurrentState.
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_addrdec.v":29:7:29:25|Synthesizing module COREAHBLITE_ADDRDEC
+
+	MEMSPACE=3'b100
+	HADDR_SHG_CFG=1'b1
+	SC=16'b0000000000000000
+	M_AHBSLOTENABLE=17'b00000000000000000
+	MSB_ADDR=32'b00000000000000000000000000010011
+	SLAVE_0=16'b0000000000000001
+	SLAVE_1=16'b0000000000000010
+	SLAVE_2=16'b0000000000000100
+	SLAVE_3=16'b0000000000001000
+	SLAVE_4=16'b0000000000010000
+	SLAVE_5=16'b0000000000100000
+	SLAVE_6=16'b0000000001000000
+	SLAVE_7=16'b0000000010000000
+	SLAVE_8=16'b0000000100000000
+	SLAVE_9=16'b0000001000000000
+	SLAVE_10=16'b0000010000000000
+	SLAVE_11=16'b0000100000000000
+	SLAVE_12=16'b0001000000000000
+	SLAVE_13=16'b0010000000000000
+	SLAVE_14=16'b0100000000000000
+	SLAVE_15=16'b1000000000000000
+	NONE=16'b0000000000000000
+   Generated name = COREAHBLITE_ADDRDEC_Z2
+
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":31:7:31:29|Synthesizing module COREAHBLITE_MASTERSTAGE
+
+	MEMSPACE=3'b100
+	HADDR_SHG_CFG=1'b1
+	SC=16'b0000000000000000
+	M_AHBSLOTENABLE=17'b00000000000000000
+	IDLE=1'b0
+	REGISTERED=1'b1
+	SLAVE_NONE=17'b00000000000000000
+   Generated name = COREAHBLITE_MASTERSTAGE_4_1_0_0_0_1_0
+
+@N: CL177 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":629:0:629:5|Sharing sequential element addrRegSMCurrentState.
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_slavearbiter.v":28:7:28:30|Synthesizing module COREAHBLITE_SLAVEARBITER
+
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":30:7:30:28|Synthesizing module COREAHBLITE_SLAVESTAGE
+
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":31:7:31:28|Synthesizing module COREAHBLITE_MATRIX4X16
+
+	MEMSPACE=3'b100
+	HADDR_SHG_CFG=1'b1
+	SC=16'b0000000000000000
+	M0_AHBSLOTENABLE=17'b00000000000100000
+	M1_AHBSLOTENABLE=17'b00000000000000000
+	M2_AHBSLOTENABLE=17'b00000000000000000
+	M3_AHBSLOTENABLE=17'b00000000000000000
+   Generated name = COREAHBLITE_MATRIX4X16_4_1_0_32_0_0_0
+
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":32:7:32:17|Synthesizing module CoreAHBLite
+
+	FAMILY=6'b010010
+	MEMSPACE=3'b100
+	HADDR_SHG_CFG=1'b1
+	SC_0=1'b0
+	SC_1=1'b0
+	SC_2=1'b0
+	SC_3=1'b0
+	SC_4=1'b0
+	SC_5=1'b0
+	SC_6=1'b0
+	SC_7=1'b0
+	SC_8=1'b0
+	SC_9=1'b0
+	SC_10=1'b0
+	SC_11=1'b0
+	SC_12=1'b0
+	SC_13=1'b0
+	SC_14=1'b0
+	SC_15=1'b0
+	M0_AHBSLOT0ENABLE=1'b0
+	M0_AHBSLOT1ENABLE=1'b0
+	M0_AHBSLOT2ENABLE=1'b0
+	M0_AHBSLOT3ENABLE=1'b0
+	M0_AHBSLOT4ENABLE=1'b0
+	M0_AHBSLOT5ENABLE=1'b1
+	M0_AHBSLOT6ENABLE=1'b0
+	M0_AHBSLOT7ENABLE=1'b0
+	M0_AHBSLOT8ENABLE=1'b0
+	M0_AHBSLOT9ENABLE=1'b0
+	M0_AHBSLOT10ENABLE=1'b0
+	M0_AHBSLOT11ENABLE=1'b0
+	M0_AHBSLOT12ENABLE=1'b0
+	M0_AHBSLOT13ENABLE=1'b0
+	M0_AHBSLOT14ENABLE=1'b0
+	M0_AHBSLOT15ENABLE=1'b0
+	M0_AHBSLOT16ENABLE=1'b0
+	M1_AHBSLOT0ENABLE=1'b0
+	M1_AHBSLOT1ENABLE=1'b0
+	M1_AHBSLOT2ENABLE=1'b0
+	M1_AHBSLOT3ENABLE=1'b0
+	M1_AHBSLOT4ENABLE=1'b0
+	M1_AHBSLOT5ENABLE=1'b0
+	M1_AHBSLOT6ENABLE=1'b0
+	M1_AHBSLOT7ENABLE=1'b0
+	M1_AHBSLOT8ENABLE=1'b0
+	M1_AHBSLOT9ENABLE=1'b0
+	M1_AHBSLOT10ENABLE=1'b0
+	M1_AHBSLOT11ENABLE=1'b0
+	M1_AHBSLOT12ENABLE=1'b0
+	M1_AHBSLOT13ENABLE=1'b0
+	M1_AHBSLOT14ENABLE=1'b0
+	M1_AHBSLOT15ENABLE=1'b0
+	M1_AHBSLOT16ENABLE=1'b0
+	M2_AHBSLOT0ENABLE=1'b0
+	M2_AHBSLOT1ENABLE=1'b0
+	M2_AHBSLOT2ENABLE=1'b0
+	M2_AHBSLOT3ENABLE=1'b0
+	M2_AHBSLOT4ENABLE=1'b0
+	M2_AHBSLOT5ENABLE=1'b0
+	M2_AHBSLOT6ENABLE=1'b0
+	M2_AHBSLOT7ENABLE=1'b0
+	M2_AHBSLOT8ENABLE=1'b0
+	M2_AHBSLOT9ENABLE=1'b0
+	M2_AHBSLOT10ENABLE=1'b0
+	M2_AHBSLOT11ENABLE=1'b0
+	M2_AHBSLOT12ENABLE=1'b0
+	M2_AHBSLOT13ENABLE=1'b0
+	M2_AHBSLOT14ENABLE=1'b0
+	M2_AHBSLOT15ENABLE=1'b0
+	M2_AHBSLOT16ENABLE=1'b0
+	M3_AHBSLOT0ENABLE=1'b0
+	M3_AHBSLOT1ENABLE=1'b0
+	M3_AHBSLOT2ENABLE=1'b0
+	M3_AHBSLOT3ENABLE=1'b0
+	M3_AHBSLOT4ENABLE=1'b0
+	M3_AHBSLOT5ENABLE=1'b0
+	M3_AHBSLOT6ENABLE=1'b0
+	M3_AHBSLOT7ENABLE=1'b0
+	M3_AHBSLOT8ENABLE=1'b0
+	M3_AHBSLOT9ENABLE=1'b0
+	M3_AHBSLOT10ENABLE=1'b0
+	M3_AHBSLOT11ENABLE=1'b0
+	M3_AHBSLOT12ENABLE=1'b0
+	M3_AHBSLOT13ENABLE=1'b0
+	M3_AHBSLOT14ENABLE=1'b0
+	M3_AHBSLOT15ENABLE=1'b0
+	M3_AHBSLOT16ENABLE=1'b0
+	M0_AHBSLOTENABLE=17'b00000000000100000
+	M1_AHBSLOTENABLE=17'b00000000000000000
+	M2_AHBSLOTENABLE=17'b00000000000000000
+	M3_AHBSLOTENABLE=17'b00000000000000000
+	SC=16'b0000000000000000
+   Generated name = CoreAHBLite_Z3
+
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\mss_tshell.v":1:7:1:13|Synthesizing module MSS_AHB
+
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":151:7:151:13|Synthesizing module MSS_CCC
+
+@N: CG364 :"C:\Microsemi\Libero_v11.3\Synopsys\synplify_I201309MSP1\lib\proasic\smartfusion.v":2620:7:2620:11|Synthesizing module RCOSC
+
+@N: CG364 :"C:\Microsemi\Libero_v11.3\Synopsys\synplify_I201309MSP1\lib\proasic\smartfusion.v":1141:7:1141:9|Synthesizing module GND
+
+@N: CG364 :"C:\Microsemi\Libero_v11.3\Synopsys\synplify_I201309MSP1\lib\proasic\smartfusion.v":1868:7:1868:9|Synthesizing module VCC
+
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\MSS_CCC_0\crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC.v":5:7:5:42|Synthesizing module crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC
+
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":23:7:23:15|Synthesizing module INBUF_MSS
+
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":37:7:37:16|Synthesizing module OUTBUF_MSS
+
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\crc_ahb_ip_MSS.v":9:7:9:20|Synthesizing module crc_ahb_ip_MSS
+
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\host_interface.v":1:7:1:20|Synthesizing module host_interface
+
+@W: CL265 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\host_interface.v":81:0:81:5|Pruning bit 2 of hsize_pp[2:0] -- not in use ...
+
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\bit_reversal.v":3:7:3:18|Synthesizing module bit_reversal
+
+	DATA_SIZE=32'b00000000000000000000000000100000
+	NO_REVERSE=2'b00
+	BYTE=2'b01
+	HALF_WORD=2'b10
+	WORD=2'b11
+	TYPES=32'b00000000000000000000000000000100
+   Generated name = bit_reversal_32s_0_1_2_3_4s
+
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\crc_parrallel.v":1:7:1:18|Synthesizing module crc_parallel
+
+	CRC_SIZE=32'b00000000000000000000000000100000
+	FRAME_SIZE=32'b00000000000000000000000000001000
+	ENABLE=32'b11111111111111111111111111111111
+	DISABLE=32'b00000000000000000000000000000000
+   Generated name = crc_parallel_32s_8s_4294967295_0
+
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\crc_comb.v":6:7:6:14|Synthesizing module crc_comb
+
+	CRC_SIZE=32'b00000000000000000000000000100000
+	MASK=32'b11111111111111111111111111111111
+   Generated name = crc_comb_32s_4294967295
+
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\crc_datapath.v":1:7:1:18|Synthesizing module crc_datapath
+
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\crc_control_unit.v":1:7:1:22|Synthesizing module crc_control_unit
+
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\crc_unit.v":1:7:1:14|Synthesizing module crc_unit
+
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\crc_ip.v":1:7:1:12|Synthesizing module crc_ip
+
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip\crc_ahb_ip.v":9:7:9:16|Synthesizing module crc_ahb_ip
+
+@N: CL201 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\crc_control_unit.v":126:0:126:5|Trying to extract state machine for register state_byte
+Extracted state machine for register state_byte
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\crc_control_unit.v":206:0:206:5|Trying to extract state machine for register state_reset
+Extracted state machine for register state_reset
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\crc_control_unit.v":63:0:63:5|Trying to extract state machine for register state_full
+Extracted state machine for register state_full
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@W: CL246 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\host_interface.v":19:14:19:18|Input port bits 31 to 5 of HADDR[31:0] are unused
+
+@W: CL246 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\host_interface.v":19:14:19:18|Input port bits 1 to 0 of HADDR[31:0] are unused
+
+@W: CL247 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\host_interface.v":20:14:20:18|Input port bit 2 of HSIZE[2:0] is unused
+
+@W: CL157 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\MSS_CCC_0\crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC.v":62:7:62:18|*Output RCOSC_CLKOUT has undriven bits -- simulation mismatch possible.
+@W: CL157 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\MSS_CCC_0\crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC.v":63:7:63:20|*Output MAINXIN_CLKOUT has undriven bits -- simulation mismatch possible.
+@W: CL157 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\MSS_CCC_0\crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC.v":64:7:64:18|*Output LPXIN_CLKOUT has undriven bits -- simulation mismatch possible.
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\MSS_CCC_0\crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC.v":36:7:36:10|Input CLKA is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\MSS_CCC_0\crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC.v":37:7:37:14|Input CLKA_PAD is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\MSS_CCC_0\crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC.v":38:7:38:15|Input CLKA_PADP is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\MSS_CCC_0\crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC.v":39:7:39:15|Input CLKA_PADN is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\MSS_CCC_0\crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC.v":40:7:40:10|Input CLKB is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\MSS_CCC_0\crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC.v":41:7:41:14|Input CLKB_PAD is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\MSS_CCC_0\crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC.v":42:7:42:15|Input CLKB_PADP is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\MSS_CCC_0\crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC.v":43:7:43:15|Input CLKB_PADN is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\MSS_CCC_0\crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC.v":44:7:44:10|Input CLKC is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\MSS_CCC_0\crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC.v":45:7:45:14|Input CLKC_PAD is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\MSS_CCC_0\crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC.v":46:7:46:15|Input CLKC_PADP is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\MSS_CCC_0\crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC.v":47:7:47:15|Input CLKC_PADN is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\MSS_CCC_0\crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC.v":48:7:48:13|Input MAINXIN is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\MSS_CCC_0\crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC.v":49:7:49:11|Input LPXIN is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\MSS_CCC_0\crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC.v":50:7:50:13|Input MAC_CLK is unused
+@W: CL247 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":128:15:128:23|Input port bit 0 of HTRANS_M0[1:0] is unused
+
+@W: CL247 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":139:15:139:23|Input port bit 0 of HTRANS_M1[1:0] is unused
+
+@W: CL247 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":150:15:150:23|Input port bit 0 of HTRANS_M2[1:0] is unused
+
+@W: CL247 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":161:15:161:23|Input port bit 0 of HTRANS_M3[1:0] is unused
+
+@W: CL247 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":171:15:171:22|Input port bit 1 of HRESP_S0[1:0] is unused
+
+@W: CL247 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":184:15:184:22|Input port bit 1 of HRESP_S1[1:0] is unused
+
+@W: CL247 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":197:15:197:22|Input port bit 1 of HRESP_S2[1:0] is unused
+
+@W: CL247 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":210:15:210:22|Input port bit 1 of HRESP_S3[1:0] is unused
+
+@W: CL247 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":223:15:223:22|Input port bit 1 of HRESP_S4[1:0] is unused
+
+@W: CL247 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":236:15:236:22|Input port bit 1 of HRESP_S5[1:0] is unused
+
+@W: CL247 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":249:15:249:22|Input port bit 1 of HRESP_S6[1:0] is unused
+
+@W: CL247 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":262:15:262:22|Input port bit 1 of HRESP_S7[1:0] is unused
+
+@W: CL247 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":275:15:275:22|Input port bit 1 of HRESP_S8[1:0] is unused
+
+@W: CL247 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":288:15:288:22|Input port bit 1 of HRESP_S9[1:0] is unused
+
+@W: CL247 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":301:15:301:23|Input port bit 1 of HRESP_S10[1:0] is unused
+
+@W: CL247 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":314:15:314:23|Input port bit 1 of HRESP_S11[1:0] is unused
+
+@W: CL247 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":327:15:327:23|Input port bit 1 of HRESP_S12[1:0] is unused
+
+@W: CL247 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":340:15:340:23|Input port bit 1 of HRESP_S13[1:0] is unused
+
+@W: CL247 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":353:15:353:23|Input port bit 1 of HRESP_S14[1:0] is unused
+
+@W: CL247 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":366:15:366:23|Input port bit 1 of HRESP_S15[1:0] is unused
+
+@W: CL247 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":379:15:379:23|Input port bit 1 of HRESP_S16[1:0] is unused
+
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":131:15:131:23|Input HBURST_M0 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":132:15:132:22|Input HPROT_M0 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":142:15:142:23|Input HBURST_M1 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":143:15:143:22|Input HPROT_M1 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":153:15:153:23|Input HBURST_M2 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":154:15:154:22|Input HPROT_M2 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":164:15:164:23|Input HBURST_M3 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":165:15:165:22|Input HPROT_M3 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":58:18:58:26|Input HWDATA_M1 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":67:18:67:26|Input HWDATA_M2 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":76:18:76:26|Input HWDATA_M3 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":80:18:80:26|Input HRDATA_S0 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":81:13:81:24|Input HREADYOUT_S0 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":82:13:82:20|Input HRESP_S0 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":91:18:91:26|Input HRDATA_S1 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":92:13:92:24|Input HREADYOUT_S1 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":93:13:93:20|Input HRESP_S1 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":102:18:102:26|Input HRDATA_S2 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":103:13:103:24|Input HREADYOUT_S2 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":104:13:104:20|Input HRESP_S2 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":113:18:113:26|Input HRDATA_S3 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":114:13:114:24|Input HREADYOUT_S3 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":115:13:115:20|Input HRESP_S3 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":124:18:124:26|Input HRDATA_S4 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":125:13:125:24|Input HREADYOUT_S4 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":126:13:126:20|Input HRESP_S4 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":146:18:146:26|Input HRDATA_S6 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":147:13:147:24|Input HREADYOUT_S6 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":148:13:148:20|Input HRESP_S6 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":157:18:157:26|Input HRDATA_S7 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":158:13:158:24|Input HREADYOUT_S7 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":159:13:159:20|Input HRESP_S7 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":168:18:168:26|Input HRDATA_S8 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":169:13:169:24|Input HREADYOUT_S8 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":170:13:170:20|Input HRESP_S8 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":179:18:179:26|Input HRDATA_S9 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":180:13:180:24|Input HREADYOUT_S9 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":181:13:181:20|Input HRESP_S9 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":190:18:190:27|Input HRDATA_S10 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":191:13:191:25|Input HREADYOUT_S10 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":192:13:192:21|Input HRESP_S10 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":201:18:201:27|Input HRDATA_S11 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":202:13:202:25|Input HREADYOUT_S11 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":203:13:203:21|Input HRESP_S11 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":212:18:212:27|Input HRDATA_S12 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":213:13:213:25|Input HREADYOUT_S12 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":214:13:214:21|Input HRESP_S12 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":223:18:223:27|Input HRDATA_S13 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":224:13:224:25|Input HREADYOUT_S13 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":225:13:225:21|Input HRESP_S13 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":234:18:234:27|Input HRDATA_S14 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":235:13:235:25|Input HREADYOUT_S14 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":236:13:236:21|Input HRESP_S14 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":245:18:245:27|Input HRDATA_S15 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":246:13:246:25|Input HREADYOUT_S15 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":247:13:247:21|Input HRESP_S15 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":256:18:256:27|Input HRDATA_S16 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":257:13:257:25|Input HREADYOUT_S16 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":258:13:258:21|Input HRESP_S16 is unused
+@W: CL246 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":46:15:46:33|Input port bits 3 to 2 of MPREVDATASLAVEREADY[3:0] are unused
+
+@N: CL201 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_slavearbiter.v":452:4:452:9|Trying to extract state machine for register arbRegSMCurrentState
+Extracted state machine for register arbRegSMCurrentState
+State machine has 16 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+   1010
+   1011
+   1100
+   1101
+   1110
+   1111
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":50:16:50:25|Input SDATAREADY is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":51:16:51:21|Input SHRESP is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":60:16:60:24|Input HRDATA_S0 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":61:11:61:22|Input HREADYOUT_S0 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":62:16:62:24|Input HRDATA_S1 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":63:11:63:22|Input HREADYOUT_S1 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":64:16:64:24|Input HRDATA_S2 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":65:11:65:22|Input HREADYOUT_S2 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":66:16:66:24|Input HRDATA_S3 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":67:11:67:22|Input HREADYOUT_S3 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":68:16:68:24|Input HRDATA_S4 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":69:11:69:22|Input HREADYOUT_S4 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":70:16:70:24|Input HRDATA_S5 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":71:11:71:22|Input HREADYOUT_S5 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":72:16:72:24|Input HRDATA_S6 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":73:11:73:22|Input HREADYOUT_S6 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":74:16:74:24|Input HRDATA_S7 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":75:11:75:22|Input HREADYOUT_S7 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":76:16:76:24|Input HRDATA_S8 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":77:11:77:22|Input HREADYOUT_S8 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":78:16:78:24|Input HRDATA_S9 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":79:11:79:22|Input HREADYOUT_S9 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":80:16:80:25|Input HRDATA_S10 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":81:11:81:23|Input HREADYOUT_S10 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":82:16:82:25|Input HRDATA_S11 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":83:11:83:23|Input HREADYOUT_S11 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":84:16:84:25|Input HRDATA_S12 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":85:11:85:23|Input HREADYOUT_S12 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":86:16:86:25|Input HRDATA_S13 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":87:11:87:23|Input HREADYOUT_S13 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":88:16:88:25|Input HRDATA_S14 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":89:11:89:23|Input HREADYOUT_S14 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":90:16:90:25|Input HRDATA_S15 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":91:11:91:23|Input HREADYOUT_S15 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":92:16:92:25|Input HRDATA_S16 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":93:11:93:23|Input HREADYOUT_S16 is unused
+@W: CL246 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":50:16:50:25|Input port bits 16 to 6 of SDATAREADY[16:0] are unused
+
+@W: CL246 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":50:16:50:25|Input port bits 4 to 0 of SDATAREADY[16:0] are unused
+
+@W: CL246 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":51:16:51:21|Input port bits 16 to 6 of SHRESP[16:0] are unused
+
+@W: CL246 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":51:16:51:21|Input port bits 4 to 0 of SHRESP[16:0] are unused
+
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":60:16:60:24|Input HRDATA_S0 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":61:11:61:22|Input HREADYOUT_S0 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":62:16:62:24|Input HRDATA_S1 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":63:11:63:22|Input HREADYOUT_S1 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":64:16:64:24|Input HRDATA_S2 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":65:11:65:22|Input HREADYOUT_S2 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":66:16:66:24|Input HRDATA_S3 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":67:11:67:22|Input HREADYOUT_S3 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":68:16:68:24|Input HRDATA_S4 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":69:11:69:22|Input HREADYOUT_S4 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":72:16:72:24|Input HRDATA_S6 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":73:11:73:22|Input HREADYOUT_S6 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":74:16:74:24|Input HRDATA_S7 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":75:11:75:22|Input HREADYOUT_S7 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":76:16:76:24|Input HRDATA_S8 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":77:11:77:22|Input HREADYOUT_S8 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":78:16:78:24|Input HRDATA_S9 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":79:11:79:22|Input HREADYOUT_S9 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":80:16:80:25|Input HRDATA_S10 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":81:11:81:23|Input HREADYOUT_S10 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":82:16:82:25|Input HRDATA_S11 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":83:11:83:23|Input HREADYOUT_S11 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":84:16:84:25|Input HRDATA_S12 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":85:11:85:23|Input HREADYOUT_S12 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":86:16:86:25|Input HRDATA_S13 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":87:11:87:23|Input HREADYOUT_S13 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":88:16:88:25|Input HRDATA_S14 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":89:11:89:23|Input HREADYOUT_S14 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":90:16:90:25|Input HRDATA_S15 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":91:11:91:23|Input HREADYOUT_S15 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":92:16:92:25|Input HRDATA_S16 is unused
+@W: CL159 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":93:11:93:23|Input HREADYOUT_S16 is unused
+@END
+
+At c_ver Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 89MB peak: 98MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Sat Sep 27 00:32:50 2014
+
+###########################################################]
+Pre-mapping Report
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1154R, Built Jan 20 2014 10:14:08
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version I-2013.09M-SP1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+Reading constraint file: E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\mss_tshell_syn.sdc
+@L: E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\synthesis\crc_ahb_ip_scck.rpt 
+Printing clock  summary report in "E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\synthesis\crc_ahb_ip_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 110MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 110MB)
+
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Removing sequential instance regHMASTLOCK of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_4_1_0_0_0_1_0_masterstage_1(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Removing sequential instance regHSIZE[2:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_4_1_0_0_0_1_0_masterstage_1(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Removing sequential instance regHWRITE of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_4_1_0_0_0_1_0_masterstage_1(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Removing sequential instance regHMASTLOCK of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_4_1_0_0_0_1_0_masterstage_2(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Removing sequential instance regHSIZE[2:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_4_1_0_0_0_1_0_masterstage_2(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Removing sequential instance regHWRITE of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_4_1_0_0_0_1_0_masterstage_2(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Removing sequential instance regHMASTLOCK of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_4_1_0_0_0_1_0_masterstage_3(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Removing sequential instance regHSIZE[2:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_4_1_0_0_0_1_0_masterstage_3(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Removing sequential instance regHWRITE of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_4_1_0_0_0_1_0_masterstage_3(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":2708:2:2708:14|Removing instance masterstage_1 of view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_4_1_0_0_0_1_0_masterstage_1(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":2771:2:2771:14|Removing instance masterstage_2 of view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_4_1_0_0_0_1_0_masterstage_2(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":2834:2:2834:14|Removing instance masterstage_3 of view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_4_1_0_0_0_1_0_masterstage_3(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":2892:27:2892:38|Removing instance slavestage_0 of view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_0(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":2937:27:2937:38|Removing instance slavestage_1 of view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_1(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":2982:27:2982:38|Removing instance slavestage_2 of view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_2(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":3027:27:3027:38|Removing instance slavestage_3 of view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_3(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":3072:27:3072:38|Removing instance slavestage_4 of view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_4(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":3162:27:3162:38|Removing instance slavestage_6 of view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_6(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":3207:27:3207:38|Removing instance slavestage_7 of view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_7(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":3252:27:3252:38|Removing instance slavestage_8 of view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_8(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":3297:26:3297:37|Removing instance slavestage_9 of view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_9(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":3342:27:3342:39|Removing instance slavestage_10 of view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_10(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":3387:27:3387:39|Removing instance slavestage_11 of view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_11(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":3432:27:3432:39|Removing instance slavestage_12 of view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_12(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":3477:27:3477:39|Removing instance slavestage_13 of view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_13(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":3522:27:3522:39|Removing instance slavestage_14 of view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_14(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":3567:27:3567:39|Removing instance slavestage_15 of view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_15(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":3612:27:3612:39|Removing instance slavestage_16 of view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_16(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":82:4:82:9|Removing sequential instance masterDataInProg[3:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_0(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":82:4:82:9|Removing sequential instance masterDataInProg[3:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_1(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":82:4:82:9|Removing sequential instance masterDataInProg[3:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_2(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":82:4:82:9|Removing sequential instance masterDataInProg[3:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_3(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":82:4:82:9|Removing sequential instance masterDataInProg[3:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_4(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":82:4:82:9|Removing sequential instance masterDataInProg[3:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_6(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":82:4:82:9|Removing sequential instance masterDataInProg[3:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_7(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":82:4:82:9|Removing sequential instance masterDataInProg[3:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_8(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":82:4:82:9|Removing sequential instance masterDataInProg[3:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_9(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":82:4:82:9|Removing sequential instance masterDataInProg[3:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_10(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":82:4:82:9|Removing sequential instance masterDataInProg[3:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_11(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":82:4:82:9|Removing sequential instance masterDataInProg[3:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_12(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":82:4:82:9|Removing sequential instance masterDataInProg[3:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_13(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":82:4:82:9|Removing sequential instance masterDataInProg[3:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_14(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":82:4:82:9|Removing sequential instance masterDataInProg[3:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_15(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":82:4:82:9|Removing sequential instance masterDataInProg[3:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_slavestage_16(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":90:29:90:41|Removing instance slave_arbiter of view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":90:29:90:41|Removing instance slave_arbiter of view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_0(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":90:29:90:41|Removing instance slave_arbiter of view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_1(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":90:29:90:41|Removing instance slave_arbiter of view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_2(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":90:29:90:41|Removing instance slave_arbiter of view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_3(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":90:29:90:41|Removing instance slave_arbiter of view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_5(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":90:29:90:41|Removing instance slave_arbiter of view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_6(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":90:29:90:41|Removing instance slave_arbiter of view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_7(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":90:29:90:41|Removing instance slave_arbiter of view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_8(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":90:29:90:41|Removing instance slave_arbiter of view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_9(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":90:29:90:41|Removing instance slave_arbiter of view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_10(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":90:29:90:41|Removing instance slave_arbiter of view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_11(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":90:29:90:41|Removing instance slave_arbiter of view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_12(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":90:29:90:41|Removing instance slave_arbiter of view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_13(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":90:29:90:41|Removing instance slave_arbiter of view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_14(verilog) because there are no references to its outputs 
+@N: BN115 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":90:29:90:41|Removing instance slave_arbiter of view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_15(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavearbiter.v":452:4:452:9|Removing sequential instance arbRegSMCurrentState[15:0] of view:PrimLib.statemachine(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavearbiter.v":452:4:452:9|Removing sequential instance arbRegSMCurrentState[15:0] of view:PrimLib.statemachine(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_0(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavearbiter.v":452:4:452:9|Removing sequential instance arbRegSMCurrentState[15:0] of view:PrimLib.statemachine(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_1(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavearbiter.v":452:4:452:9|Removing sequential instance arbRegSMCurrentState[15:0] of view:PrimLib.statemachine(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_2(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavearbiter.v":452:4:452:9|Removing sequential instance arbRegSMCurrentState[15:0] of view:PrimLib.statemachine(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_3(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavearbiter.v":452:4:452:9|Removing sequential instance arbRegSMCurrentState[15:0] of view:PrimLib.statemachine(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_5(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavearbiter.v":452:4:452:9|Removing sequential instance arbRegSMCurrentState[15:0] of view:PrimLib.statemachine(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_6(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavearbiter.v":452:4:452:9|Removing sequential instance arbRegSMCurrentState[15:0] of view:PrimLib.statemachine(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_7(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavearbiter.v":452:4:452:9|Removing sequential instance arbRegSMCurrentState[15:0] of view:PrimLib.statemachine(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_8(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavearbiter.v":452:4:452:9|Removing sequential instance arbRegSMCurrentState[15:0] of view:PrimLib.statemachine(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_9(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavearbiter.v":452:4:452:9|Removing sequential instance arbRegSMCurrentState[15:0] of view:PrimLib.statemachine(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_10(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavearbiter.v":452:4:452:9|Removing sequential instance arbRegSMCurrentState[15:0] of view:PrimLib.statemachine(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_11(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavearbiter.v":452:4:452:9|Removing sequential instance arbRegSMCurrentState[15:0] of view:PrimLib.statemachine(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_12(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavearbiter.v":452:4:452:9|Removing sequential instance arbRegSMCurrentState[15:0] of view:PrimLib.statemachine(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_13(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavearbiter.v":452:4:452:9|Removing sequential instance arbRegSMCurrentState[15:0] of view:PrimLib.statemachine(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_14(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavearbiter.v":452:4:452:9|Removing sequential instance arbRegSMCurrentState[15:0] of view:PrimLib.statemachine(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_15(verilog) because there are no references to its outputs 
+
+
+Clock Summary
+**************
+
+Start       Requested     Requested     Clock        Clock      
+Clock       Frequency     Period        Type         Group      
+----------------------------------------------------------------
+FAB_CLK     25.0 MHz      40.000        declared     clk_group_0
+FCLK        25.0 MHz      40.000        declared     clk_group_0
+================================================================
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\synthesis\crc_ahb_ip.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 57MB peak: 126MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Sep 27 00:32:52 2014
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 1154R, Built Jan 20 2014 10:14:08
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version I-2013.09M-SP1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 116MB)
+
+@W: MO111 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\work\crc_ahb_ip_mss\mss_ccc_0\crc_ahb_ip_mss_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|Tristate driver LPXIN_CLKOUT on net LPXIN_CLKOUT has its enable tied to GND (module crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO111 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\work\crc_ahb_ip_mss\mss_ccc_0\crc_ahb_ip_mss_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|Tristate driver MAINXIN_CLKOUT on net MAINXIN_CLKOUT has its enable tied to GND (module crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC) 
+@W: MO111 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\work\crc_ahb_ip_mss\mss_ccc_0\crc_ahb_ip_mss_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|Tristate driver RCOSC_CLKOUT on net RCOSC_CLKOUT has its enable tied to GND (module crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC) 
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 117MB)
+
+@W: MO160 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":233:0:233:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[16] is always 0, optimizing ...
+@W: MO160 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHSIZE[2] is always 0, optimizing ...
+@W: MO160 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[31] is always 0, optimizing ...
+@W: MO160 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[30] is always 0, optimizing ...
+@W: MO160 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[29] is always 0, optimizing ...
+@W: MO160 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[28] is always 0, optimizing ...
+@W: MO160 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[27] is always 0, optimizing ...
+@W: MO160 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[26] is always 0, optimizing ...
+@W: MO160 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[25] is always 0, optimizing ...
+@W: MO160 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[24] is always 0, optimizing ...
+@W: MO160 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[23] is always 0, optimizing ...
+@W: MO160 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[22] is always 0, optimizing ...
+@W: MO160 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[21] is always 0, optimizing ...
+@W: MO160 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[20] is always 0, optimizing ...
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":82:4:82:9|Removing sequential instance CoreAHBLite_0.matrix4x16.slavestage_5.masterDataInProg[1] of view:PrimLib.dffr(prim) in hierarchy view:work.crc_ahb_ip(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":82:4:82:9|Removing sequential instance CoreAHBLite_0.matrix4x16.slavestage_5.masterDataInProg[3] of view:PrimLib.dffr(prim) in hierarchy view:work.crc_ahb_ip(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":82:4:82:9|Removing sequential instance CoreAHBLite_0.matrix4x16.slavestage_5.masterDataInProg[2] of view:PrimLib.dffr(prim) in hierarchy view:work.crc_ahb_ip(verilog) because there are no references to its outputs 
+Encoding state machine arbRegSMCurrentState[15:0] (view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_slave_arbiter_4(verilog))
+original code -> new code
+   0000 -> 0000000000000001
+   0001 -> 0000000000000010
+   0010 -> 0000000000000100
+   0011 -> 0000000000001000
+   0100 -> 0000000000010000
+   0101 -> 0000000000100000
+   0110 -> 0000000001000000
+   0111 -> 0000000010000000
+   1000 -> 0000000100000000
+   1001 -> 0000001000000000
+   1010 -> 0000010000000000
+   1011 -> 0000100000000000
+   1100 -> 0001000000000000
+   1101 -> 0010000000000000
+   1110 -> 0100000000000000
+   1111 -> 1000000000000000
+@W: MO160 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavearbiter.v":452:4:452:9|Register bit arbRegSMCurrentState[12] is always 0, optimizing ...
+@W: MO160 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavearbiter.v":452:4:452:9|Register bit arbRegSMCurrentState[8] is always 0, optimizing ...
+@W: MO160 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_slavearbiter.v":452:4:452:9|Register bit arbRegSMCurrentState[4] is always 0, optimizing ...
+@W: MO160 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\hdl\host_interface.v":81:0:81:5|Register bit htrans_pp[0] is always 0, optimizing ...
+Encoding state machine state_full[3:0] (view:work.crc_control_unit(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+Encoding state machine state_reset[4:0] (view:work.crc_control_unit(verilog))
+original code -> new code
+   000 -> 00000
+   001 -> 00011
+   010 -> 00101
+   011 -> 01001
+   100 -> 10001
+Encoding state machine state_byte[4:0] (view:work.crc_control_unit(verilog))
+original code -> new code
+   000 -> 00000
+   001 -> 00011
+   010 -> 00101
+   011 -> 01001
+   100 -> 10001
+Auto Dissolve of CoreAHBLite_0.matrix4x16.masterstage_0.address_decode (inst of view:COREAHBLITE_LIB.COREAHBLITE_ADDRDEC_Z1(verilog))
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[0] of view:PrimLib.dffr(prim) in hierarchy view:work.crc_ahb_ip(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[1] of view:PrimLib.dffr(prim) in hierarchy view:work.crc_ahb_ip(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[5] of view:PrimLib.dffr(prim) in hierarchy view:work.crc_ahb_ip(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[6] of view:PrimLib.dffr(prim) in hierarchy view:work.crc_ahb_ip(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[7] of view:PrimLib.dffr(prim) in hierarchy view:work.crc_ahb_ip(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[8] of view:PrimLib.dffr(prim) in hierarchy view:work.crc_ahb_ip(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[9] of view:PrimLib.dffr(prim) in hierarchy view:work.crc_ahb_ip(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[10] of view:PrimLib.dffr(prim) in hierarchy view:work.crc_ahb_ip(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[11] of view:PrimLib.dffr(prim) in hierarchy view:work.crc_ahb_ip(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[12] of view:PrimLib.dffr(prim) in hierarchy view:work.crc_ahb_ip(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[13] of view:PrimLib.dffr(prim) in hierarchy view:work.crc_ahb_ip(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[14] of view:PrimLib.dffr(prim) in hierarchy view:work.crc_ahb_ip(verilog) because there are no references to its outputs 
+@N: BN362 :"e:\julio\projetos\ips\crc\src\soc\crc_ahb_ip\component\actel\directcore\coreahblite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":167:0:167:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[15] of view:PrimLib.dffr(prim) in hierarchy view:work.crc_ahb_ip(verilog) because there are no references to its outputs 
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 117MB peak: 118MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 116MB peak: 118MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 119MB peak: 123MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 119MB peak: 123MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 119MB peak: 123MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 119MB peak: 123MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 118MB peak: 123MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 133MB peak: 135MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name                                                   Fanout, notes                  
+------------------------------------------------------------------------------------------------------------
+crc_ahb_ip_MSS_0.MSS_ADLIB_INST / M2FRESETn                                  236 : 44 asynchronous set/reset
+CoreAHBLite_0.matrix4x16.slavestage_5.masterDataInProg[0] / Q                33                             
+crc_ip_0.HOST_INTERFACE.crc_cr_ff[2] / Q                                     34                             
+crc_ip_0.HOST_INTERFACE.crc_cr_ff[3] / Q                                     66                             
+crc_ip_0.HOST_INTERFACE.crc_cr_ff[4] / Q                                     34                             
+crc_ip_0.CRC_UNIT.CONTROL_UNIT.state_byte[4] / Q                             44                             
+crc_ip_0.CRC_UNIT.DATAPATH.crc_init_sel_ff / Q                               33                             
+crc_ip_0.HOST_INTERFACE.crc_dr_sel / Y                                       34                             
+crc_ip_0.HOST_INTERFACE.crc_init_sel / Y                                     33                             
+crc_ip_0.HOST_INTERFACE.crc_poly_sel / Y                                     33                             
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4[0].CRC_COMB.un2_feedback / Y     32                             
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4[1].CRC_COMB.un2_feedback / Y     32                             
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4[2].CRC_COMB.un2_feedback / Y     32                             
+crc_ip_0.CRC_UNIT.DATAPATH.crc_poly_size_75 / Y                              30                             
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4[3].CRC_COMB.un2_feedback / Y     32                             
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4[4].CRC_COMB.un2_feedback / Y     32                             
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4[5].CRC_COMB.un2_feedback / Y     32                             
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4[6].CRC_COMB.un2_feedback / Y     32                             
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4[7].CRC_COMB.un2_feedback / Y     32                             
+crc_ip_0.CRC_UNIT.DATAPATH.crc_poly_size_76 / Y                              54                             
+crc_ip_0.CRC_UNIT.DATAPATH.crc_poly_size_77 / Y                              132                            
+crc_ip_0.CRC_UNIT.DATAPATH.crc_poly_size_74 / Y                              28                             
+crc_ip_0.HOST_INTERFACE.crc_poly_en / Y                                      32                             
+crc_ip_0.CRC_UNIT.DATAPATH.un1_crc_init_en_1 / Y                             32                             
+crc_ip_0.HOST_INTERFACE.crc_init_en / Y                                      34                             
+CoreAHBLite_0.matrix4x16.masterstage_0.HRDATA_3_0_0_a2_0_a2_0 / Y            34                             
+crc_ip_0.CRC_UNIT.CONTROL_UNIT.byte_en_0_0 / Y                               34                             
+crc_ip_0.CRC_UNIT.buffer_en / Y                                              35                             
+============================================================================================================
+
+@N: FP130 |Promoting Net crc_ahb_ip_MSS_0_M2F_RESET_N on CLKINT  I_130 
+@N: FP130 |Promoting Net crc_ip_0.CRC_UNIT.DATAPATH.crc_poly_size_77 on CLKINT  I_131 
+@N: FP130 |Promoting Net crc_ip_0.rev_in_type[1] on CLKINT  I_132 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 133MB peak: 135MB)
+
+Replicating Combinational Instance crc_ip_0.CRC_UNIT.buffer_en, fanout 35 segments 2
+Replicating Combinational Instance crc_ip_0.CRC_UNIT.CONTROL_UNIT.byte_en_0_0, fanout 34 segments 2
+Replicating Combinational Instance CoreAHBLite_0.matrix4x16.masterstage_0.HRDATA_3_0_0_a2_0_a2_0, fanout 34 segments 2
+Replicating Combinational Instance crc_ip_0.HOST_INTERFACE.crc_init_en, fanout 34 segments 2
+Replicating Combinational Instance crc_ip_0.CRC_UNIT.DATAPATH.un1_crc_init_en_1, fanout 32 segments 2
+Replicating Combinational Instance crc_ip_0.HOST_INTERFACE.crc_poly_en, fanout 32 segments 2
+Replicating Combinational Instance crc_ip_0.CRC_UNIT.DATAPATH.crc_poly_size_74, fanout 28 segments 2
+Replicating Combinational Instance crc_ip_0.CRC_UNIT.DATAPATH.crc_poly_size_76, fanout 54 segments 3
+Replicating Combinational Instance crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4[7].CRC_COMB.un2_feedback, fanout 32 segments 2
+Replicating Combinational Instance crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4[6].CRC_COMB.un2_feedback, fanout 32 segments 2
+Replicating Combinational Instance crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4[5].CRC_COMB.un2_feedback, fanout 32 segments 2
+Replicating Combinational Instance crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4[4].CRC_COMB.un2_feedback, fanout 32 segments 2
+Replicating Combinational Instance crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4[3].CRC_COMB.un2_feedback, fanout 32 segments 2
+Replicating Combinational Instance crc_ip_0.CRC_UNIT.DATAPATH.crc_poly_size_75, fanout 30 segments 2
+Replicating Combinational Instance crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4[2].CRC_COMB.un2_feedback, fanout 32 segments 2
+Replicating Combinational Instance crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4[1].CRC_COMB.un2_feedback, fanout 32 segments 2
+Replicating Combinational Instance crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4[0].CRC_COMB.un2_feedback, fanout 32 segments 2
+Replicating Combinational Instance crc_ip_0.HOST_INTERFACE.crc_poly_sel, fanout 34 segments 2
+Replicating Combinational Instance crc_ip_0.HOST_INTERFACE.crc_init_sel, fanout 34 segments 2
+Replicating Combinational Instance crc_ip_0.HOST_INTERFACE.crc_dr_sel, fanout 34 segments 2
+Replicating Sequential Instance crc_ip_0.CRC_UNIT.DATAPATH.crc_init_sel_ff, fanout 33 segments 2
+Replicating Sequential Instance crc_ip_0.CRC_UNIT.CONTROL_UNIT.state_byte[4], fanout 44 segments 2
+Replicating Sequential Instance crc_ip_0.HOST_INTERFACE.crc_cr_ff[4], fanout 34 segments 2
+Replicating Sequential Instance crc_ip_0.HOST_INTERFACE.crc_cr_ff[2], fanout 34 segments 2
+Replicating Sequential Instance CoreAHBLite_0.matrix4x16.slavestage_5.masterDataInProg[0], fanout 33 segments 2
+
+Added 0 Buffers
+Added 26 Cells via replication
+	Added 5 Sequential Cells via replication
+	Added 21 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 134MB peak: 135MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 247 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+====================================== Non-Gated/Non-Generated Clocks =======================================
+Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample Instance                     
+-------------------------------------------------------------------------------------------------------------
+@K:CKID0001       crc_ahb_ip_MSS_0     hierarchy              247        crc_ip_0.HOST_INTERFACE.crc_cr_ff[4]
+=============================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+Writing Analyst data base E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\synthesis\crc_ahb_ip.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 132MB peak: 135MB)
+
+Writing EDIF Netlist and constraint files
+I-2013.09M-SP1 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 135MB peak: 137MB)
+
+Found clock FAB_CLK with period 40.00ns 
+Found clock FCLK with period 40.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Sep 27 00:32:56 2014
+#
+
+
+Top view:               crc_ahb_ip
+Library name:           smartfusion
+Operating conditions:   COMWC-1 ( T = 70.0, V = 1.42, P = 1.48, tree_type = balanced_tree )
+Requested Frequency:    25.0 MHz
+Wire load mode:         top
+Wire load model:        smartfusion
+Paths requested:        5
+Constraint File(s):    E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\mss_tshell_syn.sdc
+                       
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -0.789
+
+                   Requested     Estimated      Requested     Estimated                Clock        Clock          
+Starting Clock     Frequency     Frequency      Period        Period        Slack      Type         Group          
+-------------------------------------------------------------------------------------------------------------------
+FAB_CLK            25.0 MHz      24.5 MHz       40.000        40.789        -0.789     declared     clk_group_0    
+FCLK               25.0 MHz      NA             40.000        NA            NA         declared     clk_group_0    
+System             100.0 MHz     3655.0 MHz     10.000        0.274         9.726      system       system_clkgroup
+===================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks             |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------
+Starting  Ending   |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------
+System    System   |  10.000      9.726   |  No paths    -      |  No paths    -      |  No paths    -    
+System    FAB_CLK  |  40.000      25.159  |  No paths    -      |  No paths    -      |  No paths    -    
+FAB_CLK   System   |  40.000      20.805  |  No paths    -      |  No paths    -      |  No paths    -    
+FAB_CLK   FAB_CLK  |  40.000      -0.790  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: FAB_CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                 Starting                                            Arrival           
+Instance                                         Reference     Type     Pin     Net                  Time        Slack 
+                                                 Clock                                                                 
+-----------------------------------------------------------------------------------------------------------------------
+crc_ip_0.HOST_INTERFACE.crc_cr_ff[0]             FAB_CLK       DFN1     Q       crc_poly_size[0]     0.627       -0.789
+crc_ip_0.HOST_INTERFACE.crc_cr_ff[1]             FAB_CLK       DFN1     Q       crc_poly_size[1]     0.627       -0.693
+crc_ip_0.CRC_UNIT.DATAPATH.crc_init_sel_ff       FAB_CLK       DFN1     Q       crc_init_sel_ff      0.627       -0.233
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff[6]         FAB_CLK       DFN1     Q       crc_out_ff[6]        0.627       0.565 
+crc_ip_0.CRC_UNIT.CONTROL_UNIT.state_full[1]     FAB_CLK       DFN1     Q       state_full[1]        0.627       0.692 
+crc_ip_0.CRC_UNIT.DATAPATH.crc_init_ff[6]        FAB_CLK       DFN1     Q       crc_init_out[6]      0.627       0.880 
+crc_ip_0.CRC_UNIT.CONTROL_UNIT.state_byte[3]     FAB_CLK       DFN1     Q       state_byte[3]        0.627       1.296 
+crc_ip_0.CRC_UNIT.CONTROL_UNIT.state_full[0]     FAB_CLK       DFN1     Q       state_full[0]        0.627       1.478 
+crc_ip_0.CRC_UNIT.CONTROL_UNIT.state_byte[2]     FAB_CLK       DFN1     Q       state_byte[2]        0.627       1.535 
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff[7]         FAB_CLK       DFN1     Q       crc_out_ff[7]        0.627       1.741 
+=======================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                              Starting                                              Required           
+Instance                                      Reference     Type     Pin     Net                    Time         Slack 
+                                              Clock                                                                    
+-----------------------------------------------------------------------------------------------------------------------
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff[1]      FAB_CLK       DFN1     D       crc_out_ff_RNO[1]      39.512       -0.789
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff[7]      FAB_CLK       DFN1     D       crc_out_ff_RNO[7]      39.512       -0.476
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff[5]      FAB_CLK       DFN1     D       crc_out_ff_RNO[5]      39.512       -0.433
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff[3]      FAB_CLK       DFN1     D       crc_out_ff_RNO[3]      39.542       -0.433
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff[13]     FAB_CLK       DFN1     D       crc_out_ff_RNO[13]     39.512       -0.271
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff[2]      FAB_CLK       DFN1     D       crc_out_ff_RNO[2]      39.542       -0.189
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff[6]      FAB_CLK       DFN1     D       crc_out_ff_RNO[6]      39.542       -0.189
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff[14]     FAB_CLK       DFN1     D       crc_out_ff_RNO[14]     39.542       -0.165
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff[15]     FAB_CLK       DFN1     D       crc_out_ff_RNO[15]     39.512       -0.164
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff[4]      FAB_CLK       DFN1     D       crc_out_ff_RNO[4]      39.512       0.021 
+=======================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      40.000
+    - Setup time:                            0.488
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         39.512
+
+    - Propagation time:                      40.301
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.789
+
+    Number of logic level(s):                28
+    Starting point:                          crc_ip_0.HOST_INTERFACE.crc_cr_ff[0] / Q
+    Ending point:                            crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff[1] / D
+    The start point is clocked by            FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                                                                             Pin      Pin               Arrival     No. of    
+Name                                                                             Type      Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------
+crc_ip_0.HOST_INTERFACE.crc_cr_ff[0]                                             DFN1      Q        Out     0.627     0.627       -         
+crc_poly_size[0]                                                                 Net       -        -       1.454     -           10        
+crc_ip_0.CRC_UNIT.DATAPATH.crc_poly_size_74                                      NOR2B     B        In      -         2.081       -         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_poly_size_74                                      NOR2B     Y        Out     0.534     2.615       -         
+crc_poly_size_74                                                                 Net       -        -       1.772     -           14        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk3\[31\]\.un1_crc_init_justified[6]     NOR2B     B        In      -         4.387       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk3\[31\]\.un1_crc_init_justified[6]     NOR2B     Y        Out     0.534     4.920       -         
+un1_crc_init_justified[6]                                                        Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified_0[31]                     AO1       C        In      -         5.194       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified_0[31]                     AO1       Y        Out     0.538     5.732       -         
+crc_init_justified_0[31]                                                         Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified_1[31]                     AO1       C        In      -         6.006       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified_1[31]                     AO1       Y        Out     0.538     6.544       -         
+crc_init_justified_1[31]                                                         Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified[31]                       AO1       C        In      -         6.818       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified[31]                       AO1       Y        Out     0.538     7.356       -         
+crc_init_justified[31]                                                           Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[0\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         7.684       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[0\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     8.482       -         
+N_170                                                                            Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[0\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         10.330      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[0\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     10.770      -         
+feedback[31]                                                                     Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[1\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         11.098      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[1\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     11.895      -         
+N_170_1                                                                          Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[1\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         13.744      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[1\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     14.183      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[2\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         14.511      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[2\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     15.308      -         
+N_170                                                                            Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[2\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         17.157      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[2\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     17.596      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[3\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         17.924      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[3\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     18.721      -         
+N_170_2                                                                          Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[3\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         20.570      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[3\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     21.009      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[4\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         21.338      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[4\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     22.135      -         
+N_170                                                                            Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[4\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         23.983      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[4\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     24.423      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[5\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         24.751      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[5\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     25.548      -         
+N_170_1                                                                          Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[5\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         27.397      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[5\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     27.836      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[6\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         28.164      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[6\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     28.961      -         
+N_170_4                                                                          Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[6\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         30.810      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[6\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     31.249      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         31.578      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     32.375      -         
+N_170                                                                            Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.crc_out_1_RNO[1]      NOR2B     B        In      -         34.223      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.crc_out_1_RNO[1]      NOR2B     Y        Out     0.439     34.663      -         
+feedback[1]                                                                      Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.crc_out_1[1]          XOR2      A        In      -         34.936      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.crc_out_1[1]          XOR2      Y        Out     0.347     35.284      -         
+crc_comb_out\[8\][1]                                                             Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.un5_crc_out[1]                               AND2      B        In      -         35.557      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.un5_crc_out[1]                               AND2      Y        Out     0.534     36.091      -         
+un5_crc_out[1]                                                                   Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1_1_RNO_0[1]                         AO1       C        In      -         36.365      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1_1_RNO_0[1]                         AO1       Y        Out     0.538     36.903      -         
+crc_out_1_0[1]                                                                   Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1_1[1]                               OR2       B        In      -         37.177      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1_1[1]                               OR2       Y        Out     0.550     37.727      -         
+crc_out_1_1[1]                                                                   Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1[1]                                 OR2       B        In      -         38.000      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1[1]                                 OR2       Y        Out     0.550     38.551      -         
+crc_unit_out[1]                                                                  Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff_RNO_0[1]                                   MX2       A        In      -         38.824      -         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff_RNO_0[1]                                   MX2       Y        Out     0.492     39.317      -         
+N_239                                                                            Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff_RNO[1]                                     NOR2B     A        In      -         39.590      -         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff_RNO[1]                                     NOR2B     Y        Out     0.438     40.028      -         
+crc_out_ff_RNO[1]                                                                Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff[1]                                         DFN1      D        In      -         40.301      -         
+============================================================================================================================================
+Total path delay (propagation time + setup) of 40.789 is 17.138(42.0%) logic and 23.651(58.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      40.000
+    - Setup time:                            0.488
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         39.512
+
+    - Propagation time:                      40.205
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.693
+
+    Number of logic level(s):                28
+    Starting point:                          crc_ip_0.HOST_INTERFACE.crc_cr_ff[1] / Q
+    Ending point:                            crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff[1] / D
+    The start point is clocked by            FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                                                                             Pin      Pin               Arrival     No. of    
+Name                                                                             Type      Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------
+crc_ip_0.HOST_INTERFACE.crc_cr_ff[1]                                             DFN1      Q        Out     0.627     0.627       -         
+crc_poly_size[1]                                                                 Net       -        -       1.454     -           10        
+crc_ip_0.CRC_UNIT.DATAPATH.crc_poly_size_74                                      NOR2B     A        In      -         2.081       -         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_poly_size_74                                      NOR2B     Y        Out     0.438     2.519       -         
+crc_poly_size_74                                                                 Net       -        -       1.772     -           14        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk3\[31\]\.un1_crc_init_justified[6]     NOR2B     B        In      -         4.290       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk3\[31\]\.un1_crc_init_justified[6]     NOR2B     Y        Out     0.534     4.824       -         
+un1_crc_init_justified[6]                                                        Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified_0[31]                     AO1       C        In      -         5.098       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified_0[31]                     AO1       Y        Out     0.538     5.636       -         
+crc_init_justified_0[31]                                                         Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified_1[31]                     AO1       C        In      -         5.910       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified_1[31]                     AO1       Y        Out     0.538     6.448       -         
+crc_init_justified_1[31]                                                         Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified[31]                       AO1       C        In      -         6.722       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified[31]                       AO1       Y        Out     0.538     7.260       -         
+crc_init_justified[31]                                                           Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[0\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         7.588       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[0\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     8.385       -         
+N_170                                                                            Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[0\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         10.234      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[0\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     10.673      -         
+feedback[31]                                                                     Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[1\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         11.002      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[1\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     11.799      -         
+N_170_1                                                                          Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[1\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         13.647      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[1\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     14.087      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[2\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         14.415      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[2\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     15.212      -         
+N_170                                                                            Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[2\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         17.061      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[2\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     17.500      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[3\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         17.828      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[3\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     18.625      -         
+N_170_2                                                                          Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[3\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         20.474      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[3\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     20.913      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[4\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         21.241      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[4\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     22.039      -         
+N_170                                                                            Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[4\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         23.887      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[4\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     24.326      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[5\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         24.655      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[5\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     25.452      -         
+N_170_1                                                                          Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[5\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         27.301      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[5\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     27.740      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[6\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         28.068      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[6\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     28.865      -         
+N_170_4                                                                          Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[6\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         30.714      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[6\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     31.153      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         31.481      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     32.279      -         
+N_170                                                                            Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.crc_out_1_RNO[1]      NOR2B     B        In      -         34.127      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.crc_out_1_RNO[1]      NOR2B     Y        Out     0.439     34.566      -         
+feedback[1]                                                                      Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.crc_out_1[1]          XOR2      A        In      -         34.840      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.crc_out_1[1]          XOR2      Y        Out     0.347     35.188      -         
+crc_comb_out\[8\][1]                                                             Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.un5_crc_out[1]                               AND2      B        In      -         35.461      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.un5_crc_out[1]                               AND2      Y        Out     0.534     35.995      -         
+un5_crc_out[1]                                                                   Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1_1_RNO_0[1]                         AO1       C        In      -         36.269      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1_1_RNO_0[1]                         AO1       Y        Out     0.538     36.807      -         
+crc_out_1_0[1]                                                                   Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1_1[1]                               OR2       B        In      -         37.081      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1_1[1]                               OR2       Y        Out     0.550     37.631      -         
+crc_out_1_1[1]                                                                   Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1[1]                                 OR2       B        In      -         37.904      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1[1]                                 OR2       Y        Out     0.550     38.454      -         
+crc_unit_out[1]                                                                  Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff_RNO_0[1]                                   MX2       A        In      -         38.728      -         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff_RNO_0[1]                                   MX2       Y        Out     0.492     39.220      -         
+N_239                                                                            Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff_RNO[1]                                     NOR2B     A        In      -         39.494      -         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff_RNO[1]                                     NOR2B     Y        Out     0.438     39.932      -         
+crc_out_ff_RNO[1]                                                                Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff[1]                                         DFN1      D        In      -         40.205      -         
+============================================================================================================================================
+Total path delay (propagation time + setup) of 40.693 is 17.042(41.9%) logic and 23.651(58.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      40.000
+    - Setup time:                            0.488
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         39.512
+
+    - Propagation time:                      40.023
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.511
+
+    Number of logic level(s):                27
+    Starting point:                          crc_ip_0.HOST_INTERFACE.crc_cr_ff[0] / Q
+    Ending point:                            crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff[1] / D
+    The start point is clocked by            FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                                                                             Pin      Pin               Arrival     No. of    
+Name                                                                             Type      Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------
+crc_ip_0.HOST_INTERFACE.crc_cr_ff[0]                                             DFN1      Q        Out     0.627     0.627       -         
+crc_poly_size[0]                                                                 Net       -        -       1.454     -           10        
+crc_ip_0.CRC_UNIT.DATAPATH.crc_poly_size_74                                      NOR2B     B        In      -         2.081       -         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_poly_size_74                                      NOR2B     Y        Out     0.534     2.615       -         
+crc_poly_size_74                                                                 Net       -        -       1.772     -           14        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk3\[31\]\.un1_crc_init_justified[6]     NOR2B     B        In      -         4.387       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk3\[31\]\.un1_crc_init_justified[6]     NOR2B     Y        Out     0.534     4.920       -         
+un1_crc_init_justified[6]                                                        Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified_0[31]                     AO1       C        In      -         5.194       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified_0[31]                     AO1       Y        Out     0.538     5.732       -         
+crc_init_justified_0[31]                                                         Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified_1[31]                     AO1       C        In      -         6.006       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified_1[31]                     AO1       Y        Out     0.538     6.544       -         
+crc_init_justified_1[31]                                                         Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified[31]                       AO1       C        In      -         6.818       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified[31]                       AO1       Y        Out     0.538     7.356       -         
+crc_init_justified[31]                                                           Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[0\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         7.684       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[0\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     8.482       -         
+N_170                                                                            Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[0\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         10.330      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[0\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     10.770      -         
+feedback[31]                                                                     Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[1\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         11.098      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[1\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     11.895      -         
+N_170_1                                                                          Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[1\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         13.744      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[1\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     14.183      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[2\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         14.511      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[2\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     15.308      -         
+N_170                                                                            Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[2\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         17.157      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[2\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     17.596      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[3\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         17.924      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[3\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     18.721      -         
+N_170_2                                                                          Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[3\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         20.570      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[3\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     21.009      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[4\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         21.338      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[4\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     22.135      -         
+N_170                                                                            Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[4\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         23.983      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[4\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     24.423      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[5\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         24.751      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[5\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     25.548      -         
+N_170_1                                                                          Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[5\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         27.397      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[5\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     27.836      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[6\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         28.164      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[6\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     28.961      -         
+N_170_4                                                                          Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[6\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         30.810      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[6\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     31.249      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.un2_feedback_0        XOR2      B        In      -         31.578      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.un2_feedback_0        XOR2      Y        Out     0.797     32.375      -         
+N_170_0                                                                          Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.feedback[17]          OA1       C        In      -         34.223      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.feedback[17]          OA1       Y        Out     0.566     34.790      -         
+feedback_5[17]                                                                   Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.crc_out_1[17]         XOR3      C        In      -         35.063      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.crc_out_1[17]         XOR3      Y        Out     0.839     35.902      -         
+crc_comb_out\[8\][17]                                                            Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1_1_RNO_0[1]                         AO1       A        In      -         36.230      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1_1_RNO_0[1]                         AO1       Y        Out     0.395     36.625      -         
+crc_out_1_0[1]                                                                   Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1_1[1]                               OR2       B        In      -         36.899      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1_1[1]                               OR2       Y        Out     0.550     37.449      -         
+crc_out_1_1[1]                                                                   Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1[1]                                 OR2       B        In      -         37.722      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1[1]                                 OR2       Y        Out     0.550     38.272      -         
+crc_unit_out[1]                                                                  Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff_RNO_0[1]                                   MX2       A        In      -         38.546      -         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff_RNO_0[1]                                   MX2       Y        Out     0.492     39.038      -         
+N_239                                                                            Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff_RNO[1]                                     NOR2B     A        In      -         39.312      -         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff_RNO[1]                                     NOR2B     Y        Out     0.438     39.750      -         
+crc_out_ff_RNO[1]                                                                Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff[1]                                         DFN1      D        In      -         40.023      -         
+============================================================================================================================================
+Total path delay (propagation time + setup) of 40.511 is 17.079(42.2%) logic and 23.432(57.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      40.000
+    - Setup time:                            0.488
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         39.512
+
+    - Propagation time:                      39.988
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.476
+
+    Number of logic level(s):                27
+    Starting point:                          crc_ip_0.HOST_INTERFACE.crc_cr_ff[0] / Q
+    Ending point:                            crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff[7] / D
+    The start point is clocked by            FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                                                                             Pin      Pin               Arrival     No. of    
+Name                                                                             Type      Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------
+crc_ip_0.HOST_INTERFACE.crc_cr_ff[0]                                             DFN1      Q        Out     0.627     0.627       -         
+crc_poly_size[0]                                                                 Net       -        -       1.454     -           10        
+crc_ip_0.CRC_UNIT.DATAPATH.crc_poly_size_74                                      NOR2B     B        In      -         2.081       -         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_poly_size_74                                      NOR2B     Y        Out     0.534     2.615       -         
+crc_poly_size_74                                                                 Net       -        -       1.772     -           14        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk3\[31\]\.un1_crc_init_justified[6]     NOR2B     B        In      -         4.387       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk3\[31\]\.un1_crc_init_justified[6]     NOR2B     Y        Out     0.534     4.920       -         
+un1_crc_init_justified[6]                                                        Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified_0[31]                     AO1       C        In      -         5.194       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified_0[31]                     AO1       Y        Out     0.538     5.732       -         
+crc_init_justified_0[31]                                                         Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified_1[31]                     AO1       C        In      -         6.006       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified_1[31]                     AO1       Y        Out     0.538     6.544       -         
+crc_init_justified_1[31]                                                         Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified[31]                       AO1       C        In      -         6.818       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified[31]                       AO1       Y        Out     0.538     7.356       -         
+crc_init_justified[31]                                                           Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[0\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         7.684       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[0\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     8.482       -         
+N_170                                                                            Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[0\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         10.330      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[0\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     10.770      -         
+feedback[31]                                                                     Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[1\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         11.098      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[1\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     11.895      -         
+N_170_1                                                                          Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[1\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         13.744      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[1\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     14.183      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[2\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         14.511      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[2\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     15.308      -         
+N_170                                                                            Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[2\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         17.157      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[2\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     17.596      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[3\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         17.924      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[3\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     18.721      -         
+N_170_2                                                                          Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[3\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         20.570      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[3\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     21.009      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[4\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         21.338      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[4\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     22.135      -         
+N_170                                                                            Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[4\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         23.983      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[4\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     24.423      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[5\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         24.751      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[5\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     25.548      -         
+N_170_1                                                                          Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[5\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         27.397      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[5\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     27.836      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[6\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         28.164      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[6\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     28.961      -         
+N_170_4                                                                          Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[6\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         30.810      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[6\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     31.249      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.un2_feedback_0        XOR2      B        In      -         31.578      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.un2_feedback_0        XOR2      Y        Out     0.797     32.375      -         
+N_170_0                                                                          Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.feedback[7]           NOR3C     C        In      -         34.223      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.feedback[7]           NOR3C     Y        Out     0.566     34.790      -         
+feedback_6[7]                                                                    Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.crc_out_1[7]          XOR3      C        In      -         35.063      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.crc_out_1[7]          XOR3      Y        Out     0.839     35.902      -         
+crc_comb_out\[8\][7]                                                             Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.un35_crc_out[7]                              NOR2B     A        In      -         36.176      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.un35_crc_out[7]                              NOR2B     Y        Out     0.438     36.613      -         
+un35_crc_out[7]                                                                  Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1_0[7]                               AO1       C        In      -         36.887      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1_0[7]                               AO1       Y        Out     0.538     37.425      -         
+crc_out_1_0[7]                                                                   Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1[7]                                 AO1       C        In      -         37.699      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1[7]                                 AO1       Y        Out     0.538     38.237      -         
+crc_unit_out[7]                                                                  Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff_RNO_0[7]                                   MX2       A        In      -         38.511      -         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff_RNO_0[7]                                   MX2       Y        Out     0.492     39.003      -         
+N_245                                                                            Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff_RNO[7]                                     NOR2B     A        In      -         39.277      -         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff_RNO[7]                                     NOR2B     Y        Out     0.438     39.714      -         
+crc_out_ff_RNO[7]                                                                Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff[7]                                         DFN1      D        In      -         39.988      -         
+============================================================================================================================================
+Total path delay (propagation time + setup) of 40.476 is 17.098(42.2%) logic and 23.378(57.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      40.000
+    - Setup time:                            0.488
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         39.512
+
+    - Propagation time:                      39.945
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.433
+
+    Number of logic level(s):                27
+    Starting point:                          crc_ip_0.HOST_INTERFACE.crc_cr_ff[0] / Q
+    Ending point:                            crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff[5] / D
+    The start point is clocked by            FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                                                                             Pin      Pin               Arrival     No. of    
+Name                                                                             Type      Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------
+crc_ip_0.HOST_INTERFACE.crc_cr_ff[0]                                             DFN1      Q        Out     0.627     0.627       -         
+crc_poly_size[0]                                                                 Net       -        -       1.454     -           10        
+crc_ip_0.CRC_UNIT.DATAPATH.crc_poly_size_74                                      NOR2B     B        In      -         2.081       -         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_poly_size_74                                      NOR2B     Y        Out     0.534     2.615       -         
+crc_poly_size_74                                                                 Net       -        -       1.772     -           14        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk3\[31\]\.un1_crc_init_justified[6]     NOR2B     B        In      -         4.387       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk3\[31\]\.un1_crc_init_justified[6]     NOR2B     Y        Out     0.534     4.920       -         
+un1_crc_init_justified[6]                                                        Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified_0[31]                     AO1       C        In      -         5.194       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified_0[31]                     AO1       Y        Out     0.538     5.732       -         
+crc_init_justified_0[31]                                                         Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified_1[31]                     AO1       C        In      -         6.006       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified_1[31]                     AO1       Y        Out     0.538     6.544       -         
+crc_init_justified_1[31]                                                         Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified[31]                       AO1       C        In      -         6.818       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_init_justified[31]                       AO1       Y        Out     0.538     7.356       -         
+crc_init_justified[31]                                                           Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[0\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         7.684       -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[0\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     8.482       -         
+N_170                                                                            Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[0\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         10.330      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[0\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     10.770      -         
+feedback[31]                                                                     Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[1\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         11.098      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[1\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     11.895      -         
+N_170_1                                                                          Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[1\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         13.744      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[1\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     14.183      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[2\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         14.511      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[2\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     15.308      -         
+N_170                                                                            Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[2\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         17.157      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[2\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     17.596      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[3\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         17.924      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[3\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     18.721      -         
+N_170_2                                                                          Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[3\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         20.570      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[3\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     21.009      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[4\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         21.338      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[4\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     22.135      -         
+N_170                                                                            Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[4\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         23.983      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[4\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     24.423      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[5\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         24.751      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[5\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     25.548      -         
+N_170_1                                                                          Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[5\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         27.397      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[5\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     27.836      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[6\]\.CRC_COMB.un2_feedback          XOR2      B        In      -         28.164      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[6\]\.CRC_COMB.un2_feedback          XOR2      Y        Out     0.797     28.961      -         
+N_170_4                                                                          Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[6\]\.CRC_COMB.feedback[31]          NOR2B     B        In      -         30.810      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[6\]\.CRC_COMB.feedback[31]          NOR2B     Y        Out     0.439     31.249      -         
+feedback_0[31]                                                                   Net       -        -       0.328     -           2         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.un2_feedback_0        XOR2      B        In      -         31.578      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.un2_feedback_0        XOR2      Y        Out     0.797     32.375      -         
+N_170_0                                                                          Net       -        -       1.849     -           16        
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.feedback[5]           NOR3C     C        In      -         34.223      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.feedback[5]           NOR3C     Y        Out     0.566     34.790      -         
+feedback_5[5]                                                                    Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.crc_out_1[5]          XOR3      C        In      -         35.063      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.genblk4\[7\]\.CRC_COMB.crc_out_1[5]          XOR3      Y        Out     0.839     35.902      -         
+crc_comb_out\[8\][5]                                                             Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1_0[5]                               AO1       A        In      -         36.176      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1_0[5]                               AO1       Y        Out     0.395     36.570      -         
+crc_out_1_0[5]                                                                   Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1_1[5]                               AO1       C        In      -         36.844      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1_1[5]                               AO1       Y        Out     0.538     37.382      -         
+crc_out_1_1[5]                                                                   Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1[5]                                 AO1       C        In      -         37.656      -         
+crc_ip_0.CRC_UNIT.DATAPATH.CRC_UNIT.crc_out_1[5]                                 AO1       Y        Out     0.538     38.194      -         
+crc_unit_out[5]                                                                  Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff_RNO_0[5]                                   MX2       A        In      -         38.468      -         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff_RNO_0[5]                                   MX2       Y        Out     0.492     38.960      -         
+N_243                                                                            Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff_RNO[5]                                     NOR2B     A        In      -         39.234      -         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff_RNO[5]                                     NOR2B     Y        Out     0.438     39.672      -         
+crc_out_ff_RNO[5]                                                                Net       -        -       0.274     -           1         
+crc_ip_0.CRC_UNIT.DATAPATH.crc_out_ff[5]                                         DFN1      D        In      -         39.945      -         
+============================================================================================================================================
+Total path delay (propagation time + setup) of 40.433 is 17.055(42.2%) logic and 23.378(57.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                    Starting                                                                                      Arrival           
+Instance                            Reference     Type        Pin              Net                                                Time        Slack 
+                                    Clock                                                                                                           
+----------------------------------------------------------------------------------------------------------------------------------------------------
+crc_ahb_ip_MSS_0.MSS_ADLIB_INST     System        MSS_AHB     EMCCLK           MSS_ADLIB_INST_EMCCLK                              0.000       9.726 
+crc_ahb_ip_MSS_0.MSS_ADLIB_INST     System        MSS_AHB     MSSHTRANS[1]     crc_ahb_ip_MSS_0_MSS_MASTER_AHB_LITE_HTRANS[1]     0.000       25.159
+crc_ahb_ip_MSS_0.MSS_ADLIB_INST     System        MSS_AHB     MSSHADDR[19]     crc_ahb_ip_MSS_0_MSS_MASTER_AHB_LITE_HADDR[19]     0.000       25.344
+crc_ahb_ip_MSS_0.MSS_ADLIB_INST     System        MSS_AHB     MSSHADDR[18]     crc_ahb_ip_MSS_0_MSS_MASTER_AHB_LITE_HADDR[18]     0.000       25.377
+crc_ahb_ip_MSS_0.MSS_ADLIB_INST     System        MSS_AHB     MSSHADDR[17]     crc_ahb_ip_MSS_0_MSS_MASTER_AHB_LITE_HADDR[17]     0.000       25.378
+crc_ahb_ip_MSS_0.MSS_ADLIB_INST     System        MSS_AHB     MSSHADDR[16]     crc_ahb_ip_MSS_0_MSS_MASTER_AHB_LITE_HADDR[16]     0.000       26.231
+crc_ahb_ip_MSS_0.MSS_ADLIB_INST     System        MSS_AHB     MSSHWDATA[0]     crc_ahb_ip_MSS_0_MSS_MASTER_AHB_LITE_HWDATA[0]     0.000       29.242
+crc_ahb_ip_MSS_0.MSS_ADLIB_INST     System        MSS_AHB     MSSHLOCK         crc_ahb_ip_MSS_0_MSS_MASTER_AHB_LITE_HLOCK         0.000       29.341
+crc_ahb_ip_MSS_0.MSS_ADLIB_INST     System        MSS_AHB     MSSHWDATA[3]     crc_ahb_ip_MSS_0_MSS_MASTER_AHB_LITE_HWDATA[3]     0.000       34.290
+crc_ahb_ip_MSS_0.MSS_ADLIB_INST     System        MSS_AHB     MSSHWDATA[4]     crc_ahb_ip_MSS_0_MSS_MASTER_AHB_LITE_HWDATA[4]     0.000       34.290
+====================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                        Starting                                                           Required           
+Instance                                                Reference     Type         Pin           Net                       Time         Slack 
+                                                        Clock                                                                                 
+----------------------------------------------------------------------------------------------------------------------------------------------
+crc_ahb_ip_MSS_0.MSS_ADLIB_INST                         System        MSS_AHB      EMCCLKRTN     MSS_ADLIB_INST_EMCCLK     10.000       9.726 
+CoreAHBLite_0.matrix4x16.masterstage_0.regHTRANS        System        DFN1C0       D             N_338                     39.512       25.159
+CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[2]      System        DFN1E0C0     E             N_280                     39.482       25.799
+CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[3]      System        DFN1E0C0     E             N_280                     39.482       25.799
+CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[4]      System        DFN1E0C0     E             N_280                     39.482       25.799
+CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[16]     System        DFN1E0C0     E             N_280                     39.482       25.799
+CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[17]     System        DFN1E0C0     E             N_280                     39.482       25.799
+CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[18]     System        DFN1E0C0     E             N_280                     39.482       25.799
+CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[19]     System        DFN1E0C0     E             N_280                     39.482       25.799
+CoreAHBLite_0.matrix4x16.masterstage_0.regHMASTLOCK     System        DFN1E0C0     E             N_280                     39.482       25.799
+==============================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      0.274
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 9.726
+
+    Number of logic level(s):                0
+    Starting point:                          crc_ahb_ip_MSS_0.MSS_ADLIB_INST / EMCCLK
+    Ending point:                            crc_ahb_ip_MSS_0.MSS_ADLIB_INST / EMCCLKRTN
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                  Pin           Pin               Arrival     No. of    
+Name                                Type        Name          Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+crc_ahb_ip_MSS_0.MSS_ADLIB_INST     MSS_AHB     EMCCLK        Out     0.000     0.000       -         
+MSS_ADLIB_INST_EMCCLK               Net         -             -       0.274     -           1         
+crc_ahb_ip_MSS_0.MSS_ADLIB_INST     MSS_AHB     EMCCLKRTN     In      -         0.274       -         
+======================================================================================================
+Total path delay (propagation time + setup) of 0.274 is 0.000(0.0%) logic and 0.274(100.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: A2F200M3F_FBGA484_-1
+Report for cell crc_ahb_ip.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AND2     9      1.0        9.0
+               AO1    71      1.0       71.0
+              AO1A    10      1.0       10.0
+              AO1B     1      1.0        1.0
+              AO1D     4      1.0        4.0
+              AOI1     2      1.0        2.0
+             AOI1B     1      1.0        1.0
+               AX1     7      1.0        7.0
+              AX1C    50      1.0       50.0
+              AX1D    11      1.0       11.0
+             AXOI7     1      1.0        1.0
+            CLKINT     3      0.0        0.0
+               GND    24      0.0        0.0
+               INV     1      1.0        1.0
+           MSS_AHB     1      0.0        0.0
+           MSS_CCC     1      0.0        0.0
+               MX2   384      1.0      384.0
+              MX2A     2      1.0        2.0
+              MX2C     1      1.0        1.0
+              NOR2    17      1.0       17.0
+             NOR2A    35      1.0       35.0
+             NOR2B   419      1.0      419.0
+              NOR3     9      1.0        9.0
+             NOR3A    19      1.0       19.0
+             NOR3B    14      1.0       14.0
+             NOR3C    54      1.0       54.0
+               OA1    97      1.0       97.0
+              OA1A     5      1.0        5.0
+              OA1B     3      1.0        3.0
+              OA1C     1      1.0        1.0
+               OR2    27      1.0       27.0
+              OR2A   161      1.0      161.0
+              OR2B     3      1.0        3.0
+               OR3    32      1.0       32.0
+              OR3A     4      1.0        4.0
+              OR3B     1      1.0        1.0
+              OR3C     1      1.0        1.0
+             RCOSC     1      0.0        0.0
+               VCC    24      0.0        0.0
+               XA1    23      1.0       23.0
+              XA1B    10      1.0       10.0
+              XOR2    29      1.0       29.0
+              XOR3    73      1.0       73.0
+
+
+              DFN1   195      1.0      195.0
+            DFN1C0    11      1.0       11.0
+          DFN1E0C0    29      1.0       29.0
+            DFN1E1     7      1.0        7.0
+            DFN1P0     5      1.0        5.0
+                   -----          ----------
+             TOTAL  1893              1839.0
+
+
+  IO Cell usage:
+              cell count
+         INBUF_MSS     2
+        OUTBUF_MSS     1
+                   -----
+             TOTAL     3
+
+
+Core Cells         : 1839 of 4608 (40%)
+IO Cells           : 3
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 51MB peak: 137MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Sat Sep 27 00:32:56 2014
+
+###########################################################]

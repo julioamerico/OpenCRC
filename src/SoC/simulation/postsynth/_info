@@ -1,0 +1,552 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/simulation
+v\crc_comb_32s_4294967295_genblk4[0].CRC_COMB 
+Z1 !s110 1470796694
+!i10b 1
+!s100 PG9?O^IOin6HnJ0z;BQ^71
+I1L1GkCm_TZ=eh:9j9?jTP0
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+Z3 w1470796539
+Z4 8E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/synthesis/crc_ahb_ip.v
+Z5 FE:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/synthesis/crc_ahb_ip.v
+L0 5308
+Z6 OW;L;10.3c;59
+r1
+!s85 0
+31
+Z7 !s108 1470796694.072000
+Z8 !s107 E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/synthesis/crc_ahb_ip.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|postsynth|E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/synthesis/crc_ahb_ip.v|
+!s101 -O0
+!i113 1
+Z10 o-vlog01compat -work postsynth -O0
+n@134crc_comb_32s_4294967295_genblk4[0].@c@r@c_@c@o@m@b@040
+v\crc_comb_32s_4294967295_genblk4[0].CRC_COMB_0 
+R1
+!i10b 1
+!s100 mK=eY>4@P6f0^P:8[XY=01
+IJCndGXn=FThdMeP`[NDUH0
+R2
+R0
+R3
+R4
+R5
+L0 2833
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+n@134crc_comb_32s_4294967295_genblk4[0].@c@r@c_@c@o@m@b_0@040
+v\crc_comb_32s_4294967295_genblk4[0].CRC_COMB_1 
+R1
+!i10b 1
+!s100 kD6zH:>DmYNcC4^e:L7mP2
+I=:S31=019SCNfY_RMgC7O3
+R2
+R0
+R3
+R4
+R5
+L0 5077
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+n@134crc_comb_32s_4294967295_genblk4[0].@c@r@c_@c@o@m@b_1@040
+v\crc_comb_32s_4294967295_genblk4[0].CRC_COMB_2 
+R1
+!i10b 1
+!s100 1A?SKl32X^zJ<6eN5kN`<0
+InBonj2DYbZM59YjRTAhjW3
+R2
+R0
+R3
+R4
+R5
+L0 4500
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+n@134crc_comb_32s_4294967295_genblk4[0].@c@r@c_@c@o@m@b_2@040
+v\crc_comb_32s_4294967295_genblk4[0].CRC_COMB_3 
+R1
+!i10b 1
+!s100 DAG?FV_[a>A6RAcleIL^72
+Ien2PE=JVP?g=eloe2lWd13
+R2
+R0
+R3
+R4
+R5
+L0 3353
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+n@134crc_comb_32s_4294967295_genblk4[0].@c@r@c_@c@o@m@b_3@040
+v\crc_comb_32s_4294967295_genblk4[0].CRC_COMB_4 
+R1
+!i10b 1
+!s100 V9Ho;NkFPc7NZFNUdDfb02
+Izco66AJXCSD:H>TMVB;732
+R2
+R0
+R3
+R4
+R5
+L0 3047
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+n@134crc_comb_32s_4294967295_genblk4[0].@c@r@c_@c@o@m@b_4@040
+v\crc_comb_32s_4294967295_genblk4[0].CRC_COMB_5 
+R1
+!i10b 1
+!s100 >cI6_l<zTn7;g_^Y[c[1g3
+IUOmzz4;Y55[^Tj1IKV@bg3
+R2
+R0
+R3
+R4
+R5
+L0 4756
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+n@134crc_comb_32s_4294967295_genblk4[0].@c@r@c_@c@o@m@b_5@040
+v\crc_comb_32s_4294967295_genblk4[0].CRC_COMB_6 
+R1
+!i10b 1
+!s100 AXL;flfa:lSll?4?6F7]S1
+IIbH=LgB]9`MS]D8L8fib03
+R2
+R0
+R3
+R4
+R5
+L0 3622
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+n@134crc_comb_32s_4294967295_genblk4[0].@c@r@c_@c@o@m@b_6@040
+vbit_reversal_32s_0_1_2_3_4s
+R1
+!i10b 1
+!s100 1<8]Q68E7YU9zkl[EziN@0
+I2SRQLeneA?Jbbz=G_?I@n2
+R2
+R0
+R3
+R4
+R5
+L0 2554
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vCOREAHBLITE_DEFAULTSLAVESM_default_slave_sm
+R1
+!i10b 1
+!s100 [cFnUi9TLdO=o^8d`J4Yh2
+I5JWZX9GfGkfmPbBZ@PeLf3
+R2
+R0
+R3
+R4
+R5
+L0 511
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+n@c@o@r@e@a@h@b@l@i@t@e_@d@e@f@a@u@l@t@s@l@a@v@e@s@m_default_slave_sm
+vCOREAHBLITE_MASTERSTAGE_4_1_0_32_0_1_0
+R1
+!i10b 1
+!s100 CgnVPaDGY=GP=L1@F7i]R1
+IaeBK4X[[P_e3knndBODec2
+R2
+R0
+R3
+R4
+R5
+L0 590
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+n@c@o@r@e@a@h@b@l@i@t@e_@m@a@s@t@e@r@s@t@a@g@e_4_1_0_32_0_1_0
+vCOREAHBLITE_MATRIX4X16_4_1_0_32_0_0_0
+R1
+!i10b 1
+!s100 IFbY7A?[=bGC=ooPm>`eX1
+Ie8L`m;1l6:HM??63`@K8Q1
+R2
+R0
+R3
+R4
+R5
+L0 1029
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+n@c@o@r@e@a@h@b@l@i@t@e_@m@a@t@r@i@x4@x16_4_1_0_32_0_0_0
+vCOREAHBLITE_SLAVEARBITER_slave_arbiter_4
+R1
+!i10b 1
+!s100 ef2dTTn<iZzQzbIbaa`JV1
+IPWghD<HU<k0n@SSdNh6BH3
+R2
+R0
+R3
+R4
+R5
+L0 5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+n@c@o@r@e@a@h@b@l@i@t@e_@s@l@a@v@e@a@r@b@i@t@e@r_slave_arbiter_4
+vCOREAHBLITE_SLAVESTAGE_slavestage_5
+R1
+!i10b 1
+!s100 =]dKOHVj`=Qo3e;k;mh>K3
+II2<JN6_5z<[MDzNjl5zhH0
+R2
+R0
+R3
+R4
+R5
+L0 256
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+n@c@o@r@e@a@h@b@l@i@t@e_@s@l@a@v@e@s@t@a@g@e_slavestage_5
+vCoreAHBLite_Z3
+R1
+!i10b 1
+!s100 ;^miO7lY<@BiEdYCo>A^?2
+IHbilLK>W8MWO^7ULCe^MM0
+R2
+R0
+R3
+R4
+R5
+L0 1374
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+n@core@a@h@b@lite_@z3
+vcrc_ahb_ip
+R1
+!i10b 1
+!s100 0<Gl80il2Z`7F1iOk6WVI3
+I760Gg4:44MnkQKfBfF;9W3
+R2
+R0
+R3
+R4
+R5
+L0 9666
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vcrc_ahb_ip_MSS
+R1
+!i10b 1
+!s100 >C1TFAczIfZ[MI7^aBnTE2
+Ia`MlVRVC[Ve8aDWQ7^cKB1
+R2
+R0
+R3
+R4
+R5
+L0 9105
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+ncrc_ahb_ip_@m@s@s
+vcrc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC
+R1
+!i10b 1
+!s100 omcYo[62EF5VGkMzRdbHi0
+I7P]AQ]aAnjzEJPEd>^WhO0
+R2
+R0
+R3
+R4
+R5
+L0 8998
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+ncrc_ahb_ip_@m@s@s_tmp_@m@s@s_@c@c@c_0_@m@s@s_@c@c@c
+vcrc_control_unit
+R1
+!i10b 1
+!s100 RCn4:[aZk:VKb_8[@PTL32
+IHK_PB81B;S:BY5^`MN^7L0
+R2
+R0
+R3
+R4
+R5
+L0 2242
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vcrc_datapath
+R1
+!i10b 1
+!s100 akYQ>hMo80lmE3Y2bk9Pc1
+I4ho5G]`e=PbMNQQ3nkWS60
+R2
+R0
+R3
+R4
+R5
+L0 6695
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vcrc_ip
+R1
+!i10b 1
+!s100 QRoFcY^m:MaE4KT]Bh]o<2
+I_]0CSS8lH;Ph721WVEZ1b1
+R2
+R0
+R3
+R4
+R5
+L0 8664
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vcrc_parallel_32s_8s_4294967295_0
+R1
+!i10b 1
+!s100 XVWYKTQNADfDl0m`9lIa81
+IKPWe]g^b7K5ZZAj9<I=;E2
+R2
+R0
+R3
+R4
+R5
+L0 5456
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vcrc_unit
+R1
+!i10b 1
+!s100 57:I9JD`X9AIOde0G_]6Z1
+ILEA[0W]h^@[l?dQdTRKk13
+R2
+R0
+R3
+R4
+R5
+L0 8473
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vhost_interface
+R1
+!i10b 1
+!s100 >4c0z2@1L0Gl;o@hZ_F^L0
+IoiF[Kcc031MRG<dFJlQ5R3
+R2
+R0
+R3
+R4
+R5
+L0 1691
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+vtb_crc_ip
+!s110 1470796695
+!i10b 1
+!s100 ZQ[c809?nSGQ]R<dGf=LX2
+IOdM8>Pn=aieHc6lVnoc?g2
+R2
+R0
+w1470796668
+8E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v
+FE:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1470796695.093000
+!s107 E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v|
+!s90 -reportprogress|300|+incdir+E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus|-vlog01compat|-work|postsynth|E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v|
+!s101 -O0
+!i113 1
+R10
+!s92 +incdir+E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus -vlog01compat -work postsynth -O0

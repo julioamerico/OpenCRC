@@ -1,0 +1,43 @@
+FlashPro
+Version: 11.6.0.34
+Release: v11.6
+
+Software Version: 11.6.0.34
+PDB file
+'E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\designer\impl1\crc_ahb_ip_fp\crc_ahb_ip.pdb' has
+been loaded successfully.
+DESIGN : crc_ahb_ip;  CHECKSUM : B899;  PDB_VERSION : 1.8
+Driver : 3.0.0 build 1
+programmer '71444' : FlashPro3
+Opened
+'E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\designer\impl1\crc_ahb_ip_fp\crc_ahb_ip.pro'
+Info: Updating Flash Memory data from file
+      E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\MSS_ENVM_0\MSS\
+      _ENVM_0.efc.
+Info: Updating FPGA Array data from file
+      E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\designer\impl1\crc_ahb_ip.fdb.
+PDB file
+'E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\designer\impl1\crc_ahb_ip_fp\crc_ahb_ip.pdb' has
+been loaded successfully.
+DESIGN : crc_ahb_ip;  CHECKSUM : B899;  PDB_VERSION : 1.8
+programmer '71444' : Scan Chain...
+Warning: programmer '71444' : Vpump has been selected on programmer AND an externally provided
+         Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '71444' : Scan Chain PASSED.
+programmer '71444' : Executing action PROGRAM
+programmer '71444' : EXPORT FSN[48] = 0114ab1c8c58
+programmer '71444' : Erase ...
+programmer '71444' : Completed erase
+programmer '71444' : EXPORT CHECKSUM: [16] = b899
+programmer '71444' : Programming FPGA Array
+programmer '71444' : Verifying FPGA Array
+programmer '71444' :         Verifying FPGA Array -- pass
+programmer '71444' : Program System Init and Boot Clients...
+programmer '71444' : Verify System Init and Boot Clients...
+programmer '71444' : Finished: Mon May 09 14:56:50 2016 (Elapsed time 00:00:37)
+programmer '71444' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+Warning: Project 'crc_ahb_ip' has been modified. Do you want to save it? [NO]
+Project closed.

@@ -1,0 +1,35 @@
+@N|Running in 64-bit mode
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_addrdec.v":29:7:29:25|Synthesizing module COREAHBLITE_ADDRDEC
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_defaultslavesm.v":29:7:29:32|Synthesizing module COREAHBLITE_DEFAULTSLAVESM
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":31:7:31:29|Synthesizing module COREAHBLITE_MASTERSTAGE
+@N: CL177 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":629:0:629:5|Sharing sequential element addrRegSMCurrentState.
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_addrdec.v":29:7:29:25|Synthesizing module COREAHBLITE_ADDRDEC
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":31:7:31:29|Synthesizing module COREAHBLITE_MASTERSTAGE
+@N: CL177 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_masterstage.v":629:0:629:5|Sharing sequential element addrRegSMCurrentState.
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_slavearbiter.v":28:7:28:30|Synthesizing module COREAHBLITE_SLAVEARBITER
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_slavestage.v":30:7:30:28|Synthesizing module COREAHBLITE_SLAVESTAGE
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_matrix4x16.v":31:7:31:28|Synthesizing module COREAHBLITE_MATRIX4X16
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite.v":32:7:32:17|Synthesizing module CoreAHBLite
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\mss_tshell.v":1:7:1:13|Synthesizing module MSS_AHB
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":151:7:151:13|Synthesizing module MSS_CCC
+@N: CG364 :"C:\Microsemi\Libero_v11.3\Synopsys\synplify_I201309MSP1\lib\proasic\smartfusion.v":2620:7:2620:11|Synthesizing module RCOSC
+@N: CG364 :"C:\Microsemi\Libero_v11.3\Synopsys\synplify_I201309MSP1\lib\proasic\smartfusion.v":1141:7:1141:9|Synthesizing module GND
+@N: CG364 :"C:\Microsemi\Libero_v11.3\Synopsys\synplify_I201309MSP1\lib\proasic\smartfusion.v":1868:7:1868:9|Synthesizing module VCC
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\MSS_CCC_0\crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC.v":5:7:5:42|Synthesizing module crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":23:7:23:15|Synthesizing module INBUF_MSS
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\SmartFusionMSS\MSS\2.5.106\mss_comps.v":37:7:37:16|Synthesizing module OUTBUF_MSS
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\crc_ahb_ip_MSS.v":9:7:9:20|Synthesizing module crc_ahb_ip_MSS
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\host_interface.v":1:7:1:20|Synthesizing module host_interface
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\bit_reversal.v":3:7:3:18|Synthesizing module bit_reversal
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\crc_parrallel.v":1:7:1:18|Synthesizing module crc_parallel
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\crc_comb.v":6:7:6:14|Synthesizing module crc_comb
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\crc_datapath.v":1:7:1:18|Synthesizing module crc_datapath
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\crc_control_unit.v":1:7:1:22|Synthesizing module crc_control_unit
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\crc_unit.v":1:7:1:14|Synthesizing module crc_unit
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\crc_ip.v":1:7:1:12|Synthesizing module crc_ip
+@N: CG364 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip\crc_ahb_ip.v":9:7:9:16|Synthesizing module crc_ahb_ip
+@N: CL201 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\crc_control_unit.v":126:0:126:5|Trying to extract state machine for register state_byte
+@N: CL201 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\crc_control_unit.v":206:0:206:5|Trying to extract state machine for register state_reset
+@N: CL201 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\hdl\crc_control_unit.v":63:0:63:5|Trying to extract state machine for register state_full
+@N: CL201 :"E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\Actel\DirectCore\CoreAHBLite\5.0.100\rtl\vlog\core\coreahblite_slavearbiter.v":452:4:452:9|Trying to extract state machine for register arbRegSMCurrentState
+

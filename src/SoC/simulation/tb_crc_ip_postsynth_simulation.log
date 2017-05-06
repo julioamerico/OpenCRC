@@ -1,0 +1,644 @@
+# Reading C:/Microsemi/Libero_v11.6/Model/tcl/vsim/pref.tcl
+# do run.do
+# --- Using Windows Actel DirectCore AMBA BFM compiler
+# --- Compiling Actel DirectCore AMBA BFM source files ...
+# 
+# AMBA BFM Compiler (BETA Version 2.1.107 04Feb09) 
+#   Reading
+#    Processing ./coreahblite_usertb_ahb_master0.bfm
+#    Processing coreahblite_usertb_include.bfm
+#   Enumerating
+#   Assigning
+#   Checking
+#    Checking Complete
+#    162 Global  localconstants Defined
+#    92 Global  localvariables Defined
+#   Writing Vectors ./coreahblite_usertb_ahb_master0.vec
+#    Commands Generated 883
+#    Vectors Generated 3718
+#    Vector CheckSum 4be90ef5
+# 
+# BFM Compiler Completed Okay
+# 
+# AMBA BFM Compiler (BETA Version 2.1.107 04Feb09) 
+#   Reading
+#    Processing ./coreahblite_usertb_ahb_master1.bfm
+#    Processing coreahblite_usertb_include.bfm
+#   Enumerating
+#   Assigning
+#   Checking
+#    Checking Complete
+#    44 Global  localconstants Defined
+#    92 Global  localvariables Defined
+#   Writing Vectors ./coreahblite_usertb_ahb_master1.vec
+#    Commands Generated 429
+#    Vectors Generated 1704
+#    Vector CheckSum dc8a2f46
+# 
+# BFM Compiler Completed Okay
+# --- Done Compiling Actel DirectCore AMBA BFM source files.
+# INFO: Simulation library postsynth already exists
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.07 Jul 19 2014
+# vmap -modelsim_quiet postsynth postsynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.07 Jul 19 2014
+# vmap -modelsim_quiet smartfusion C:/Microsemi/Libero_v11.6/Designer/lib/modelsim/precompiled/vlog/smartfusion 
+# Modifying modelsim.ini
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.07 Jul 19 2014
+# vmap -modelsim_quiet MSS_BFM_LIB ../component/Actel/SmartFusionMSS/MSS/2.5.106/mti/user_verilog/MSS_BFM_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.3c Compiler 2014.07 Jul 19 2014
+# Start time: 23:38:07 on Aug 09,2016
+# vcom -reportprogress 300 -work MSS_BFM_LIB -force_refresh 
+# -- Skipping module acb_96_bit
+# -- Skipping module adc
+# -- Skipping module AddrDecM0
+# -- Skipping module AddrDecM1
+# -- Skipping module AddrDecM2
+# -- Skipping module AddrDecM3
+# -- Skipping module AddrDecM4
+# -- Skipping module AhbClient_HM
+# -- Skipping module AhbWrapper_FM
+# -- Skipping module AhbWrapper_HM
+# -- Skipping module analog_mux
+# -- Skipping module analog_mux_F060
+# -- Skipping module analog_quad
+# -- Skipping module ApbClient_HM
+# -- Skipping module ApbWrapper_FM
+# -- Skipping module BFM_MAIN
+# -- Skipping module Client_FM
+# -- Skipping module ClientAddrData_FM
+# -- Skipping module ClientAddrData_HM
+# -- Skipping module CMMaster0Stage
+# -- Skipping module CMMaster1Stage
+# -- Skipping module CMMaster2Stage
+# -- Skipping module CMMaster3Stage
+# -- Skipping module CMMaster4Stage
+# -- Skipping module CMSlaveStage
+# -- Skipping module DefaultSlaveSM
+# -- Skipping module dp512x32
+# -- Skipping module dp512x32_col
+# -- Skipping module drive_analog_input
+# -- Skipping module drive_analog_input_varef
+# -- Skipping module drive_analog_io
+# -- Skipping module drive_analog_io_39bit
+# -- Skipping module drive_current_inputs
+# -- Skipping module drive_current_monitor
+# -- Skipping module drive_differential_inputs
+# -- Skipping module drive_temperature_quad
+# -- Skipping module drive_varef_out
+# -- Skipping module DSSAB
+# -- Skipping module DSSAB_F060
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package em_pkg
+# -- Compiling entity em_addr_gen
+# -- Compiling architecture rtl of em_addr_gen
+# -- Compiling entity em_ahb_int
+# -- Compiling architecture rtl of em_ahb_int
+# -- Compiling entity em_phase_gen
+# -- Compiling architecture rtl of em_phase_gen
+# -- Compiling package em_pkg
+# -- Compiling package body em_pkg
+# -- Loading package em_pkg
+# -- Loading package em_pkg
+# -- Compiling entity em_rdata_gen
+# -- Compiling architecture rtl of em_rdata_gen
+# -- Compiling entity em_wdata_gen
+# -- Compiling architecture rtl of em_wdata_gen
+# -- Skipping module F2_ACE_512x16
+# -- Skipping module F2AB
+# -- Skipping module F2AB_F060
+# -- Skipping module F2DSS_ACE
+# -- Skipping module F2DSS_ACE_MISC
+# -- Skipping module F2DSS_ACE_MISC_APB3
+# -- Skipping module F2DSS_ACE_MISC_FDET
+# -- Skipping module F2DSS_ACE_MISC_FDET12
+# -- Skipping module F2DSS_ACE_MISC_INT_LOGIC
+# -- Skipping module F2DSS_ACE_MISC_PDMA
+# -- Skipping module F2DSS_ACE_MISC_RDET
+# -- Skipping module F2DSS_ACE_MISC_RDET12
+# -- Skipping module F2DSS_ACE_MISC_RDET32
+# -- Skipping module F2DSS_ACE_MISC_RDMUX
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG21
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG24
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG32
+# -- Skipping module F2DSS_ACE_MISC_STICKYFLAG9
+# -- Skipping module F2DSS_ACE_MISC_SYNC
+# -- Skipping module F2DSS_ACE_MISC_SYNC12
+# -- Skipping module F2DSS_ACE_PPE
+# -- Skipping module F2DSS_ACE_PPE_ADDER
+# -- Skipping module F2DSS_ACE_PPE_ALU
+# -- Skipping module F2DSS_ACE_PPE_DPRAM
+# -- Skipping module F2DSS_ACE_PPE_DPRAM_CTRL
+# -- Skipping module F2DSS_ACE_PPE_FIFO
+# -- Skipping module F2DSS_ACE_PPE_FIFO_CTRL
+# -- Skipping module F2DSS_ACE_PPE_FSM
+# -- Skipping module F2DSS_ACE_PPE_FSM_STFILT
+# -- Skipping module F2DSS_ACE_PPE_MULT
+# -- Skipping module F2DSS_ACE_PPE_RDMUX
+# -- Skipping module F2DSS_ACE_PPE_SSE_CTRL
+# -- Skipping module F2DSS_ACE_PPE_THRFLAGS
+# -- Skipping module F2DSS_ACE_PPE_XFER_DINMUX
+# -- Skipping module F2DSS_ACE_RAMS
+# -- Skipping module F2DSS_COMMSMATRIX
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity f2dss_emc
+# -- Compiling architecture rtl of f2dss_emc
+# -- Skipping module F2DSS_FABRICIF
+# -- Skipping module F2DSS_GPIO
+# -- Skipping module F2DSS_SSE
+# -- Skipping module F2DSS_SSE_APB3_PPE_IF
+# -- Skipping module F2DSS_SSE_ENGINE
+# -- Skipping module F2DSS_SSE_PHASE_ACCUMS
+# -- Skipping module F2DSS_SSE_TDM_FSM
+# -- Skipping module FABRICIF_FM
+# -- Skipping module FABRICIF_HM
+# -- Skipping module M3_BFM
+# -- Skipping module Matrix5x8
+# -- Skipping module MSS_AHB
+# -- Skipping module MSS_AHB_F060
+# -- Skipping module MSS_AHB_F060_IP
+# -- Skipping module MSS_AHB_IP
+# -- Skipping module MSS_APB
+# -- Skipping module MSS_APB_F060
+# -- Skipping module MSS_APB_F060_IP
+# -- Skipping module MSS_APB_IP
+# -- Skipping module MSS_APBSLAVES
+# -- Skipping module MSS_BFM_AHB2APB
+# -- Skipping module MSS_BFM_AHBSLAVE
+# -- Skipping module MSS_BFM_AHBSLAVEEXT
+# -- Skipping module mss_clockgen
+# -- Skipping module MSS_SYSREG
+# -- Skipping module obd
+# -- Skipping module obd_mux
+# -- Skipping module read_39bit_analog_io
+# -- Skipping module read_analog_input
+# -- Skipping module read_analog_io
+# -- Skipping module SINGLE_PORT_RAM
+# -- Skipping module SlaveArbiter
+# -- Skipping module sp512x16
+# End time: 23:38:09 on Aug 09,2016, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.3c Compiler 2014.07 Jul 19 2014
+# Start time: 23:38:09 on Aug 09,2016
+# vlog -reportprogress 300 -work MSS_BFM_LIB -force_refresh 
+# -- Refreshing module acb_96_bit
+# -- Refreshing module adc
+# -- Refreshing module AddrDecM0
+# -- Refreshing module AddrDecM1
+# -- Refreshing module AddrDecM2
+# -- Refreshing module AddrDecM3
+# -- Refreshing module AddrDecM4
+# -- Refreshing module AhbClient_HM
+# -- Refreshing module AhbWrapper_FM
+# -- Refreshing module AhbWrapper_HM
+# -- Refreshing module analog_mux
+# -- Refreshing module analog_mux_F060
+# -- Refreshing module analog_quad
+# -- Refreshing module ApbClient_HM
+# -- Refreshing module ApbWrapper_FM
+# -- Refreshing module BFM_MAIN
+# -- Refreshing module Client_FM
+# -- Refreshing module ClientAddrData_FM
+# -- Refreshing module ClientAddrData_HM
+# -- Refreshing module CMMaster0Stage
+# -- Refreshing module CMMaster1Stage
+# -- Refreshing module CMMaster2Stage
+# -- Refreshing module CMMaster3Stage
+# -- Refreshing module CMMaster4Stage
+# -- Refreshing module CMSlaveStage
+# -- Refreshing module DefaultSlaveSM
+# -- Refreshing module dp512x32
+# -- Refreshing module dp512x32_col
+# -- Refreshing module drive_analog_input
+# -- Refreshing module drive_analog_input_varef
+# -- Refreshing module drive_analog_io
+# -- Refreshing module drive_analog_io_39bit
+# -- Refreshing module drive_current_inputs
+# -- Refreshing module drive_current_monitor
+# -- Refreshing module drive_differential_inputs
+# -- Refreshing module drive_temperature_quad
+# -- Refreshing module drive_varef_out
+# -- Refreshing module DSSAB
+# -- Refreshing module DSSAB_F060
+# -- Skipping entity em_addr_gen
+# -- Skipping entity em_ahb_int
+# -- Skipping entity em_phase_gen
+# -- Skipping package em_pkg
+# -- Skipping entity em_rdata_gen
+# -- Skipping entity em_wdata_gen
+# -- Refreshing module F2_ACE_512x16
+# -- Refreshing module F2AB
+# -- Refreshing module F2AB_F060
+# -- Refreshing module F2DSS_ACE
+# -- Refreshing module F2DSS_ACE_MISC
+# -- Refreshing module F2DSS_ACE_MISC_APB3
+# -- Refreshing module F2DSS_ACE_MISC_FDET
+# -- Refreshing module F2DSS_ACE_MISC_FDET12
+# -- Refreshing module F2DSS_ACE_MISC_INT_LOGIC
+# -- Refreshing module F2DSS_ACE_MISC_PDMA
+# -- Refreshing module F2DSS_ACE_MISC_RDET
+# -- Refreshing module F2DSS_ACE_MISC_RDET12
+# -- Refreshing module F2DSS_ACE_MISC_RDET32
+# -- Refreshing module F2DSS_ACE_MISC_RDMUX
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG21
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG24
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG32
+# -- Refreshing module F2DSS_ACE_MISC_STICKYFLAG9
+# -- Refreshing module F2DSS_ACE_MISC_SYNC
+# -- Refreshing module F2DSS_ACE_MISC_SYNC12
+# -- Refreshing module F2DSS_ACE_PPE
+# -- Refreshing module F2DSS_ACE_PPE_ADDER
+# -- Refreshing module F2DSS_ACE_PPE_ALU
+# -- Refreshing module F2DSS_ACE_PPE_DPRAM
+# -- Refreshing module F2DSS_ACE_PPE_DPRAM_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_FIFO
+# -- Refreshing module F2DSS_ACE_PPE_FIFO_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_FSM
+# -- Refreshing module F2DSS_ACE_PPE_FSM_STFILT
+# -- Refreshing module F2DSS_ACE_PPE_MULT
+# -- Refreshing module F2DSS_ACE_PPE_RDMUX
+# -- Refreshing module F2DSS_ACE_PPE_SSE_CTRL
+# -- Refreshing module F2DSS_ACE_PPE_THRFLAGS
+# -- Refreshing module F2DSS_ACE_PPE_XFER_DINMUX
+# -- Refreshing module F2DSS_ACE_RAMS
+# -- Refreshing module F2DSS_COMMSMATRIX
+# -- Skipping entity f2dss_emc
+# -- Refreshing module F2DSS_FABRICIF
+# -- Refreshing module F2DSS_GPIO
+# -- Refreshing module F2DSS_SSE
+# -- Refreshing module F2DSS_SSE_APB3_PPE_IF
+# -- Refreshing module F2DSS_SSE_ENGINE
+# -- Refreshing module F2DSS_SSE_PHASE_ACCUMS
+# -- Refreshing module F2DSS_SSE_TDM_FSM
+# -- Refreshing module FABRICIF_FM
+# -- Refreshing module FABRICIF_HM
+# -- Refreshing module M3_BFM
+# -- Refreshing module Matrix5x8
+# -- Refreshing module MSS_AHB
+# -- Refreshing module MSS_AHB_F060
+# -- Refreshing module MSS_AHB_F060_IP
+# -- Refreshing module MSS_AHB_IP
+# -- Refreshing module MSS_APB
+# -- Refreshing module MSS_APB_F060
+# -- Refreshing module MSS_APB_F060_IP
+# -- Refreshing module MSS_APB_IP
+# -- Refreshing module MSS_APBSLAVES
+# -- Refreshing module MSS_BFM_AHB2APB
+# -- Refreshing module MSS_BFM_AHBSLAVE
+# -- Refreshing module MSS_BFM_AHBSLAVEEXT
+# -- Refreshing module mss_clockgen
+# -- Refreshing module MSS_SYSREG
+# -- Refreshing module obd
+# -- Refreshing module obd_mux
+# -- Refreshing module read_39bit_analog_io
+# -- Refreshing module read_analog_input
+# -- Refreshing module read_analog_io
+# -- Refreshing module SINGLE_PORT_RAM
+# -- Refreshing module SlaveArbiter
+# -- Refreshing module sp512x16
+# End time: 23:38:11 on Aug 09,2016, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.07 Jul 19 2014
+# vmap -modelsim_quiet COREAHBLITE_LIB ../component/Actel/DirectCore/CoreAHBLite/5.0.100/mti/user_vlog/COREAHBLITE_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vcom 10.3c Compiler 2014.07 Jul 19 2014
+# Start time: 23:38:12 on Aug 09,2016
+# vcom -reportprogress 300 -work COREAHBLITE_LIB -force_refresh 
+# -- Skipping module BFM_AHBL
+# -- Skipping module BFM_AHBSLAVE
+# -- Skipping module BFM_AHBSLAVEEXT
+# -- Skipping module BFM_MAIN
+# -- Skipping module CoreAHBLite
+# -- Skipping module COREAHBLITE_ADDRDEC
+# -- Skipping module COREAHBLITE_DEFAULTSLAVESM
+# -- Skipping module COREAHBLITE_MASTERSTAGE
+# -- Skipping module COREAHBLITE_MATRIX4X16
+# -- Skipping module COREAHBLITE_SLAVEARBITER
+# -- Skipping module COREAHBLITE_SLAVESTAGE
+# End time: 23:38:12 on Aug 09,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.3c Compiler 2014.07 Jul 19 2014
+# Start time: 23:38:12 on Aug 09,2016
+# vlog -reportprogress 300 -work COREAHBLITE_LIB -force_refresh 
+# -- Refreshing module BFM_AHBL
+# -- Refreshing module BFM_AHBSLAVE
+# -- Refreshing module BFM_AHBSLAVEEXT
+# -- Refreshing module BFM_MAIN
+# -- Refreshing module CoreAHBLite
+# -- Refreshing module COREAHBLITE_ADDRDEC
+# -- Refreshing module COREAHBLITE_DEFAULTSLAVESM
+# -- Refreshing module COREAHBLITE_MASTERSTAGE
+# -- Refreshing module COREAHBLITE_MATRIX4X16
+# -- Refreshing module COREAHBLITE_SLAVEARBITER
+# -- Refreshing module COREAHBLITE_SLAVESTAGE
+# End time: 23:38:13 on Aug 09,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.3c Compiler 2014.07 Jul 19 2014
+# Start time: 23:38:14 on Aug 09,2016
+# vlog -reportprogress 300 -vlog01compat -work postsynth E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/synthesis/crc_ahb_ip.v 
+# -- Compiling module COREAHBLITE_SLAVEARBITER_slave_arbiter_4
+# -- Compiling module COREAHBLITE_SLAVESTAGE_slavestage_5
+# -- Compiling module COREAHBLITE_DEFAULTSLAVESM_default_slave_sm
+# -- Compiling module COREAHBLITE_MASTERSTAGE_4_1_0_32_0_1_0
+# -- Compiling module COREAHBLITE_MATRIX4X16_4_1_0_32_0_0_0
+# -- Compiling module CoreAHBLite_Z3
+# -- Compiling module host_interface
+# -- Compiling module crc_control_unit
+# -- Compiling module bit_reversal_32s_0_1_2_3_4s
+# -- Compiling module \crc_comb_32s_4294967295_genblk4[0].CRC_COMB_0 
+# -- Compiling module \crc_comb_32s_4294967295_genblk4[0].CRC_COMB_4 
+# -- Compiling module \crc_comb_32s_4294967295_genblk4[0].CRC_COMB_3 
+# -- Compiling module \crc_comb_32s_4294967295_genblk4[0].CRC_COMB_6 
+# -- Compiling module \crc_comb_32s_4294967295_genblk4[0].CRC_COMB_2 
+# -- Compiling module \crc_comb_32s_4294967295_genblk4[0].CRC_COMB_5 
+# -- Compiling module \crc_comb_32s_4294967295_genblk4[0].CRC_COMB_1 
+# -- Compiling module \crc_comb_32s_4294967295_genblk4[0].CRC_COMB 
+# -- Compiling module crc_parallel_32s_8s_4294967295_0
+# -- Compiling module crc_datapath
+# -- Compiling module crc_unit
+# -- Compiling module crc_ip
+# -- Compiling module crc_ahb_ip_MSS_tmp_MSS_CCC_0_MSS_CCC
+# -- Compiling module crc_ahb_ip_MSS
+# -- Compiling module crc_ahb_ip
+# 
+# Top level modules:
+# 	crc_ahb_ip
+# End time: 23:38:14 on Aug 09,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.3c Compiler 2014.07 Jul 19 2014
+# Start time: 23:38:15 on Aug 09,2016
+# vlog -reportprogress 300 "+incdir+E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus" -vlog01compat -work postsynth E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v 
+# -- Compiling module tb_crc_ip
+# 
+# Top level modules:
+# 	tb_crc_ip
+# End time: 23:38:15 on Aug 09,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -gui -do "do run.do" -l tb_crc_ip_postsynth_simulation.log 
+# Start time: 23:38:15 on Aug 09,2016
+# //  ModelSim Microsemi 10.3c Jul 19 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading postsynth.tb_crc_ip
+# Loading postsynth.crc_ip
+# Loading postsynth.host_interface
+# Loading smartfusion.DFN1
+# Loading smartfusion.NOR2B
+# Loading smartfusion.NOR3B
+# Loading smartfusion.OR3
+# Loading smartfusion.AO1
+# Loading smartfusion.NOR3A
+# Loading smartfusion.NOR3
+# Loading smartfusion.DFN1E1
+# Loading smartfusion.GND
+# Loading smartfusion.MX2
+# Loading smartfusion.VCC
+# Loading smartfusion.MX2A
+# Loading smartfusion.NOR2A
+# Loading smartfusion.CLKINT
+# Loading smartfusion.NOR3C
+# Loading postsynth.crc_unit
+# Loading postsynth.crc_control_unit
+# Loading smartfusion.OR2A
+# Loading smartfusion.OR2
+# Loading smartfusion.AO1A
+# Loading smartfusion.NOR2
+# Loading smartfusion.OR3A
+# Loading smartfusion.AO1B
+# Loading smartfusion.OA1B
+# Loading smartfusion.AOI1
+# Loading smartfusion.OA1A
+# Loading smartfusion.OA1
+# Loading smartfusion.XA1
+# Loading smartfusion.OR2B
+# Loading smartfusion.AOI1B
+# Loading smartfusion.AO1D
+# Loading smartfusion.AXOI7
+# Loading postsynth.crc_datapath
+# Loading postsynth.bit_reversal_32s_0_1_2_3_4s
+# Loading postsynth.crc_parallel_32s_8s_4294967295_0
+# Loading smartfusion.AND2
+# Loading postsynth.\crc_comb_32s_4294967295_genblk4[0].CRC_COMB_0 
+# Loading smartfusion.AX1C
+# Loading smartfusion.XOR3
+# Loading smartfusion.AX1D
+# Loading smartfusion.XA1B
+# Loading smartfusion.XOR2
+# Loading postsynth.\crc_comb_32s_4294967295_genblk4[0].CRC_COMB_4 
+# Loading smartfusion.AX1
+# Loading postsynth.\crc_comb_32s_4294967295_genblk4[0].CRC_COMB_3 
+# Loading postsynth.\crc_comb_32s_4294967295_genblk4[0].CRC_COMB_6 
+# Loading postsynth.\crc_comb_32s_4294967295_genblk4[0].CRC_COMB_2 
+# Loading postsynth.\crc_comb_32s_4294967295_genblk4[0].CRC_COMB_5 
+# Loading postsynth.\crc_comb_32s_4294967295_genblk4[0].CRC_COMB_1 
+# Loading postsynth.\crc_comb_32s_4294967295_genblk4[0].CRC_COMB 
+# ** Warning: (vsim-3017) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Too few port connections. Expected 75, found 12.
+# 
+#         Region: /tb_crc_ip/CRC_IP
+# ** Error: (vsim-3063) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): Port 'HRDATA' not found in the connected module (1st connection).
+# 
+#         Region: /tb_crc_ip/CRC_IP
+# ** Error: (vsim-3063) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): Port 'HREADYOUT' not found in the connected module (2nd connection).
+# 
+#         Region: /tb_crc_ip/CRC_IP
+# ** Error: (vsim-3063) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): Port 'HRESP' not found in the connected module (3rd connection).
+# 
+#         Region: /tb_crc_ip/CRC_IP
+# ** Error: (vsim-3063) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): Port 'HWDATA' not found in the connected module (4th connection).
+# 
+#         Region: /tb_crc_ip/CRC_IP
+# ** Error: (vsim-3063) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): Port 'HADDR' not found in the connected module (5th connection).
+# 
+#         Region: /tb_crc_ip/CRC_IP
+# ** Error: (vsim-3063) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): Port 'HSIZE' not found in the connected module (6th connection).
+# 
+#         Region: /tb_crc_ip/CRC_IP
+# ** Error: (vsim-3063) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): Port 'HTRANS' not found in the connected module (7th connection).
+# 
+#         Region: /tb_crc_ip/CRC_IP
+# ** Error: (vsim-3063) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): Port 'HWRITE' not found in the connected module (8th connection).
+# 
+#         Region: /tb_crc_ip/CRC_IP
+# ** Error: (vsim-3063) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): Port 'HSElx' not found in the connected module (9th connection).
+# 
+#         Region: /tb_crc_ip/CRC_IP
+# ** Error: (vsim-3063) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): Port 'HREADY' not found in the connected module (10th connection).
+# 
+#         Region: /tb_crc_ip/CRC_IP
+# ** Error: (vsim-3063) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): Port 'HRESETn' not found in the connected module (11th connection).
+# 
+#         Region: /tb_crc_ip/CRC_IP
+# ** Error: (vsim-3063) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): Port 'HCLK' not found in the connected module (12th connection).
+# 
+#         Region: /tb_crc_ip/CRC_IP
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_2'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_1'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_20'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_15'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_31'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_2'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_17'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_0'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_28'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_29'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_26'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_11'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_12'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_16'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_30'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_14'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_19'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_13'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_27'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_25'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_24'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_8'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_9'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_10'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_1'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_18'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_21'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_22'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'HRDATA_0_23'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'un4_HRDATA'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'bus_wr_0'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'bus_wr_3'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'bus_wr_1'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'bus_wr_16'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'bus_wr_25'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'bus_wr_2'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'FAB_CLK'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'CoreAHBLite_0_AHBmslave5_HREADY_i_0'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_347'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'crc_ahb_ip_MSS_0_M2F_RESET_N'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_350'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_348'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_349'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'un1_masterAddrInProg_6'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_5'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_408'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_409'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_387'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_340'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_341'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_342'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_352'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_353'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_358'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_360'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_361'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_364'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_365'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_366'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_332'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_333'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_334'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_335'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_336'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_337'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_367'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'crc_poly_size_77'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_357'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_356'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_354'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_351'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_362'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_355'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'N_363'.
+# 
+# ** Warning: (vsim-3722) E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/stimulus/tb_crc_ip.v(120): [TFMPC] - Missing connection for port 'crc_poly_size_77_0'.
+# 
+# Loading smartfusion.Dffpr
+# Loading smartfusion.UDP_MUX2
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 23
+# End time: 23:38:47 on Aug 09,2016, Elapsed time: 0:00:32
+# Errors: 12, Warnings: 76

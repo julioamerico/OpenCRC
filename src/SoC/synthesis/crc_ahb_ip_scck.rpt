@@ -1,0 +1,29 @@
+# Synospys Constraint Checker(syntax only), version mapact, Build 1154R, built Jan 20 2014
+# Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+# Written on Sat Sep 27 00:32:51 2014
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "crc_ahb_ip"
+Constraint File(s):      "E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\mss_tshell_syn.sdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+**************
+
+Start       Requested     Requested     Clock        Clock      
+Clock       Frequency     Period        Type         Group      
+----------------------------------------------------------------
+FAB_CLK     25.0 MHz      40.000        declared     clk_group_0
+FCLK        25.0 MHz      40.000        declared     clk_group_0
+================================================================

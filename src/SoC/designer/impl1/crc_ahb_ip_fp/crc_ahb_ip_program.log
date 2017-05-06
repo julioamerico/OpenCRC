@@ -1,0 +1,49 @@
+FlashPro
+Version: 11.3.0.112
+Release: v11.3
+
+Software Version: 11.3.0.112
+creating folder: E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\designer\impl1\crc_ahb_ip_fp
+Driver : 3.0.0 build 1
+programmer '71444' : FlashPro3
+Created new project
+'E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/designer/impl1/crc_ahb_ip_fp\crc_ahb_ip.pro'
+The 'new_project' command succeeded.
+The 'set_device_type' command succeeded.
+The 'set_device_package' command succeeded.
+Info: Adding Flash Memory data from file
+      E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\MSS_ENVM_0\MSS\
+      _ENVM_0.efc.
+Info: Adding FPGA Array data from file
+      E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\designer\impl1\crc_ahb_ip.fdb.
+PDB file
+'E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\designer\impl1\crc_ahb_ip_fp\crc_ahb_ip.pdb' has
+been loaded successfully.
+DESIGN : crc_ahb_ip;  CHECKSUM : B899;  PDB_VERSION : 1.8
+The 'update_programming_file' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer '71444' : Scan Chain...
+Warning: programmer '71444' : Vpump has been selected on programmer AND an externally provided
+         Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '71444' : Scan Chain PASSED.
+programmer '71444' : Executing action PROGRAM
+programmer '71444' : EXPORT FSN[48] = 0114ab1c8c58
+programmer '71444' : Erase ...
+programmer '71444' : Completed erase
+programmer '71444' : EXPORT CHECKSUM: [16] = b899
+programmer '71444' : Programming FPGA Array
+programmer '71444' : Verifying FPGA Array
+programmer '71444' :         Verifying FPGA Array -- pass
+programmer '71444' : Program System Init and Boot Clients...
+programmer '71444' : Verify System Init and Boot Clients...
+programmer '71444' : Finished: Tue Sep 30 00:26:19 2014 (Elapsed time 00:00:38)
+programmer '71444' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+creating folder:
+E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\designer\impl1\crc_ahb_ip_fp\projectData
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

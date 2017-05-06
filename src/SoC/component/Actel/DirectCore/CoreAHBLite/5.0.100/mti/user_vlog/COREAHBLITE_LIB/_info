@@ -1,0 +1,244 @@
+m255
+K3
+z0
+13
+cModel Technology
+Z0 dc:\svn\hoppin\IP\soft\DirectCores\CoreAHBLite\trunk\mti\user_vlog
+vBFM_AHBL
+!i10b 1
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+!s85 0
+31
+Z2 OW;L;10.3c;59
+I4VOR=h0?MY65RTQ=4VX`]2
+R0
+Z3 w1295277815
+8../../rtl/vlog/amba_bfm/bfm_ahbl.v
+F../../rtl/vlog/amba_bfm/bfm_ahbl.v
+Z4 L0 12
+Z5 o-work COREAHBLITE_LIB -O0
+Z6 !s92 -work COREAHBLITE_LIB +incdir+../../rtl/vlog/amba_bfm -O0
+n@b@f@m_@a@h@b@l
+!s100 :X`z8Q_R58S;;N<74^mbc2
+!s108 1382542431.042000
+!s107 ../../rtl/vlog/amba_bfm/bfm_ahbl.v|
+!s90 -work|COREAHBLITE_LIB|+incdir+../../rtl/vlog/amba_bfm|../../rtl/vlog/amba_bfm/bfm_ahbl.v|
+!s101 -O0
+vBFM_AHBSLAVE
+!i10b 1
+R1
+r1
+!s85 0
+31
+R2
+I@@QcA06JiEJozc75IF8;F3
+R0
+R3
+8../../rtl/vlog/amba_bfm/bfm_ahbslave.v
+F../../rtl/vlog/amba_bfm/bfm_ahbslave.v
+R4
+R5
+R6
+n@b@f@m_@a@h@b@s@l@a@v@e
+!s100 UL?gDK:I4JD>R@cX8dmD>1
+!s108 1382542431.636000
+!s107 ../../rtl/vlog/amba_bfm/bfm_ahbslave.v|
+!s90 -work|COREAHBLITE_LIB|+incdir+../../rtl/vlog/amba_bfm|../../rtl/vlog/amba_bfm/bfm_ahbslave.v|
+!s101 -O0
+vBFM_AHBSLAVEEXT
+!i10b 1
+R1
+r1
+!s85 0
+31
+R2
+IKoARdJ>:HLBB@Vz>f@LG?3
+R0
+R3
+8../../rtl/vlog/amba_bfm/bfm_ahbslaveext.v
+F../../rtl/vlog/amba_bfm/bfm_ahbslaveext.v
+R4
+R5
+R6
+n@b@f@m_@a@h@b@s@l@a@v@e@e@x@t
+!s100 W?;JnNcm2YkfN]>iSN5El0
+!s108 1382542431.292000
+!s107 ../../rtl/vlog/amba_bfm/bfm_ahbslaveext.v|
+!s90 -work|COREAHBLITE_LIB|+incdir+../../rtl/vlog/amba_bfm|../../rtl/vlog/amba_bfm/bfm_ahbslaveext.v|
+!s101 -O0
+vBFM_MAIN
+!i10b 1
+R1
+r1
+!s85 0
+31
+R2
+I>1<eS9dR8lAT4I>XXfdki3
+R0
+w1341575590
+8../../rtl/vlog/amba_bfm/bfm_main.v
+F../../rtl/vlog/amba_bfm/bfm_main.v
+R4
+R5
+n@b@f@m_@m@a@i@n
+R6
+!s100 ^?T5RMllG?[`RDYOJGWzZ1
+!s108 1382542430.558000
+!s107 ../../rtl/vlog/amba_bfm/bfm_main.v|
+!s90 -work|COREAHBLITE_LIB|+incdir+../../rtl/vlog/amba_bfm|../../rtl/vlog/amba_bfm/bfm_main.v|
+!s101 -O0
+vCoreAHBLite
+Z7 !s110 1470797036
+!i10b 1
+!s100 `g2bBYk33zc?LP>1:M<<M1
+IYQMVS[O:z[RFcD;`Y_jC62
+R1
+Z8 dE:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/simulation
+Z9 w1411786375
+8E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite.v
+FE:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite.v
+L0 32
+R2
+r1
+!s85 0
+31
+!s108 1470797036.684000
+!s107 E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite.v|
+!s90 -reportprogress|300|-vlog01compat|-work|COREAHBLITE_LIB|E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite.v|
+!s101 -O0
+!i113 1
+Z10 o-vlog01compat -work COREAHBLITE_LIB -O0
+n@core@a@h@b@lite
+vCOREAHBLITE_ADDRDEC
+!s110 1470797032
+!i10b 1
+!s100 9ejJ_0AehNdaf2J_K[:kS3
+IUmJ22`BIX@71JJm5ERBc_2
+R1
+R8
+R9
+8E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite_addrdec.v
+FE:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite_addrdec.v
+Z11 L0 29
+R2
+r1
+!s85 0
+31
+!s108 1470797032.874000
+!s107 E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite_addrdec.v|
+!s90 -reportprogress|300|-vlog01compat|-work|COREAHBLITE_LIB|E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite_addrdec.v|
+!s101 -O0
+!i113 1
+R10
+n@c@o@r@e@a@h@b@l@i@t@e_@a@d@d@r@d@e@c
+vCOREAHBLITE_DEFAULTSLAVESM
+!s110 1470797033
+!i10b 1
+!s100 EZ_ZTIUbP0c<P39[Q4lo21
+I[1kVLY2IoVE@]o8LO0fb:0
+R1
+R8
+R9
+8E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite_defaultslavesm.v
+FE:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite_defaultslavesm.v
+R11
+R2
+r1
+!s85 0
+31
+!s108 1470797033.432000
+!s107 E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite_defaultslavesm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|COREAHBLITE_LIB|E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite_defaultslavesm.v|
+!s101 -O0
+!i113 1
+R10
+n@c@o@r@e@a@h@b@l@i@t@e_@d@e@f@a@u@l@t@s@l@a@v@e@s@m
+vCOREAHBLITE_MASTERSTAGE
+Z12 !s110 1470797034
+!i10b 1
+!s100 `zE=`HJJ1UJHJl2]_[Bgm3
+IM<kUj:8l;ID1R4L]hA3oc1
+R1
+R8
+R9
+8E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite_masterstage.v
+FE:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite_masterstage.v
+Z13 L0 31
+R2
+r1
+!s85 0
+31
+!s108 1470797033.964000
+!s107 E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite_masterstage.v|
+!s90 -reportprogress|300|-vlog01compat|-work|COREAHBLITE_LIB|E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite_masterstage.v|
+!s101 -O0
+!i113 1
+R10
+n@c@o@r@e@a@h@b@l@i@t@e_@m@a@s@t@e@r@s@t@a@g@e
+vCOREAHBLITE_MATRIX4X16
+R7
+!i10b 1
+!s100 VaJ0Uz>450h5NBiU6HO592
+IhahDb7=4UH=X7VlHNOR[N1
+R1
+R8
+R9
+8E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite_matrix4x16.v
+FE:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite_matrix4x16.v
+R13
+R2
+r1
+!s85 0
+31
+!s108 1470797035.861000
+!s107 E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite_matrix4x16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|COREAHBLITE_LIB|E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite_matrix4x16.v|
+!s101 -O0
+!i113 1
+R10
+n@c@o@r@e@a@h@b@l@i@t@e_@m@a@t@r@i@x4@x16
+vCOREAHBLITE_SLAVEARBITER
+R12
+!i10b 1
+!s100 JjMBPVGBe]a;<LR8Oc^i23
+Ib5GKcZ>lO__MJ7`JMQ?YR1
+R1
+R8
+R9
+8E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite_slavearbiter.v
+FE:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite_slavearbiter.v
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1470797034.520000
+!s107 E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite_slavearbiter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|COREAHBLITE_LIB|E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite_slavearbiter.v|
+!s101 -O0
+!i113 1
+R10
+n@c@o@r@e@a@h@b@l@i@t@e_@s@l@a@v@e@a@r@b@i@t@e@r
+vCOREAHBLITE_SLAVESTAGE
+!s110 1470797035
+!i10b 1
+!s100 VA;5zHPkN`jMdKUc1WaGi2
+IKR;<gjJ6;h0?XAU[JB;D32
+R1
+R8
+R9
+8E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite_slavestage.v
+FE:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite_slavestage.v
+L0 30
+R2
+r1
+!s85 0
+31
+!s108 1470797035.287000
+!s107 E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite_slavestage.v|
+!s90 -reportprogress|300|-vlog01compat|-work|COREAHBLITE_LIB|E:/Julio/Projetos/IPs/CRC/src/SoC/crc_ahb_ip/component/Actel/DirectCore/CoreAHBLite/5.0.100/rtl/vlog/core/coreahblite_slavestage.v|
+!s101 -O0
+!i113 1
+R10
+n@c@o@r@e@a@h@b@l@i@t@e_@s@l@a@v@e@s@t@a@g@e

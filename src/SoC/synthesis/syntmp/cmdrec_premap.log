@@ -1,0 +1,14 @@
+C:\Microsemi\Libero_v11.3\Synopsys\synplify_I201309MSP1\bin64\m_proasic.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\synthesis  -part A2F200M3F  -package FBGA484  -grade -1   -globalthreshold 50 -maxfan 24 -opcond COMWC     -report_path 0   -RWCheckOnRam 0     -summaryfile E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\synthesis\synlog\report\crc_ahb_ip_premap.xml -oedif  E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\synthesis\crc_ahb_ip.edn  -conchk_prepass  E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\synthesis\crc_ahb_ip_cck_prepass.rpt  -freq 100.000  -tcl  E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\mss_tshell_syn.sdc  E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\synthesis\synwork\crc_ahb_ip_comp.srs  -flow prepass  -gcc_prepass  -osrd  E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\synthesis\synwork\crc_ahb_ip_prem.srd  -qsap  E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\synthesis\crc_ahb_ip.sap  -devicelib  C:\Microsemi\Libero_v11.3\Synopsys\synplify_I201309MSP1\lib\proasic\smartfusion.v  -ologparam  E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\synthesis\syntmp\crc_ahb_ip.plg  -osyn  E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\synthesis\synwork\crc_ahb_ip_prem.srd  -prjdir  E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\synthesis\  -prjname  crc_ahb_ip_syn  -log  E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\synthesis\synlog\crc_ahb_ip_premap.srr 
+rc:0 success:1
+E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\synthesis\crc_ahb_ip.edn|o|0|0
+E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\synthesis\crc_ahb_ip_cck_prepass.rpt|o|0|0
+E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\component\work\crc_ahb_ip_MSS\mss_tshell_syn.sdc|i|1411786338|198
+E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\synthesis\synwork\crc_ahb_ip_comp.srs|i|1411788770|144294
+E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\synthesis\synwork\crc_ahb_ip_prem.srd|o|1411788772|207302
+E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\synthesis\crc_ahb_ip.sap|o|1411788772|8711
+C:\Microsemi\Libero_v11.3\Synopsys\synplify_I201309MSP1\lib\proasic\smartfusion.v|i|1389697496|72817
+E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\synthesis\syntmp\crc_ahb_ip.plg|o|1411788771|0
+E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\synthesis\synwork\crc_ahb_ip_prem.srd|o|1411788772|207302
+E:\Julio\Projetos\IPs\CRC\src\SoC\crc_ahb_ip\synthesis\synlog\crc_ahb_ip_premap.srr|o|1411788772|28259
+C:\Microsemi\Libero_v11.3\Synopsys\synplify_I201309MSP1\bin64\m_proasic.exe|i|1390220054|14807552
+C:\Microsemi\Libero_v11.3\Synopsys\synplify_I201309MSP1\bin\m_proasic.exe|i|1390217444|12169728

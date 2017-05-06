@@ -1,0 +1,23 @@
+sourcing C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\lib\message_override.tcl
+
+Starting:    C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3\bin64\mbin\synplify.exe
+Install:     C:\Microsemi\Libero_v11.6\Synopsys\fpga_J-2015.03M-3
+Hostname:    JULIO
+Date:        Mon Feb 08 15:04:38 2016
+Version:     J-2015.03M-3
+
+Arguments:   -product synplify_pro crc_ahb_ip_syn.prj
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+
+
+OnSyncomMessage()
+OnSyncomMessage()
+Warning - The design references source files that cannot be located. This may limit the ability to cross-probe from Analyst to the HDL source code.
+exit status=0
+License checkin: synplifypro_actel
